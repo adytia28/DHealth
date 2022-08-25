@@ -1,4 +1,4 @@
-<?php
+git remote add origin https://github.com/adytia28/DHealth.git<?php
 
 namespace Tests\Feature;
 

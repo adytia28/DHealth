@@ -17,9 +17,7 @@
         @livewireStyles
     </head>
     <body class="font-sans antialiased">
-        <x-jet-banner />
-
-        <div class="min-h-screen bg-gray-100">
+        <div class=" bg-gray-100">
             @livewire('navigation-menu')
 
             <!-- Page Heading -->
@@ -32,8 +30,10 @@
             @endif
 
             <!-- Page Content -->
-            <main>
-                {{ $slot }}
+            <main class="py-12 px-16 flex items-center justify-center">
+                <div class="max-w-7xl container px-16 bg-white lg:px-4 py-6 rounded-md lg:mx-auto">
+                    @yield('content')
+                </div>
             </main>
         </div>
 
