@@ -10,13 +10,13 @@
                         <thead class="bg-gray-50">
                             <tr>
                                 <th scope="col" class="px-6 py-3 text-xs font-bold tracking-wider text-left text-gray-500 uppercase">
-                                    Thumbnail
+                                    Name
                                 </th>
                                 <th scope="col" class="px-6 py-3 text-xs font-bold tracking-wider text-left text-gray-500 uppercase">
-                                    Date
+                                    Type
                                 </th>
                                 <th scope="col" class="px-6 py-3 text-xs font-bold tracking-wider text-left text-gray-500 uppercase">
-                                    Title
+                                    Quantity
                                 </th>
                                 <th scope="col" class="px-6 py-3 text-xs font-bold tracking-wider text-left text-gray-500 uppercase">
                                     Description
@@ -46,15 +46,15 @@
                             @forelse($receipes as $receipe)
                             <tr class=" bg-gray-100">
                                 <td class="px-6 text-sm font-normal text-gray-700 whitespace-nowrap">
-                                Img
+                                {{$receipe->name ?? 'Non-Racikan'}}
                                 </td>
                                 <td class="px-6 py-4 text-sm font-normal text-gray-700 whitespace-nowrap">
-                                te
+                                {{$receipe->type}}
                                 </td>
                                 <td class="px-6 py-4 text-sm font-normal text-gray-700 whitespace-nowrap">
-                                    w
+                                    {{$receipe->quantity}}
                                 <td class="px-6 py-4 text-sm font-normal text-gray-700 whitespace-nowrap">
-                                    a
+                                    {{$receipe->signa->signa_nama}}
                                 </td>
                                 <td class="px-6 py-4 text-sm font-normal text-gray-700 whitespace-nowrap">
                                 e

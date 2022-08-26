@@ -13,6 +13,7 @@ class Create extends Component
     public $name;
     public $quantity;
     public $medicine;
+    public $selectSigna;
     public $signa;
     public $mix = [];
 
@@ -20,9 +21,16 @@ class Create extends Component
         return [
             'name' => $this->type == 'Racikan' ? 'required' : '',
             'quantity' => 'required|numeric',
-            'medicine' => 'required',
             'signa' => 'required',
             'mix' => $this->type == 'Racikan' ? 'required|array|min:2' : 'required|array|max:1',
+        ];
+    }
+
+    public function messages() {
+        return [
+            'mix.required' => 'Medicine is required',
+            'mix.min'       =>  'Medicine min 2 data',
+            'mix.max'       => 'Medicine max 1 data',
         ];
     }
 
@@ -31,23 +39,21 @@ class Create extends Component
 
         $receipe = new Receipe;
         $receipe->type = $this->type;
+        $receipe->users_id = auth()->id();
         $receipe->name = $this->name;
         $receipe->quantity = $this->quantity;
-        $receipe->medicine = $this->medicine;
-        $receipe->signa = $this->signa;
+        $receipe->signa_id = explode('|', $this->selectSigna)[0];
         $receipe->save();
 
         foreach($this->mix as $item) {
             $mix = new Concoction;
             $mix->receipes_id = $receipe->id;
-            $mix->obatalkes_id = $item->id;
+            $mix->obatalkes_id = explode('|', $item)[0];
             $mix->save();
         }
-
     }
 
-    public function render()
-    {
+    public function render() {
         $medicines =  DB::table('obatalkes_m')->where('stok', '>', 0.99)->where('obatalkes_nama', 'like', "%{$this->medicine}%")->take(10)->get();
         $signas = DB::table('signa_m')->where('signa_nama', 'like', "%{$this->signa}%")->take(10)->get();
 

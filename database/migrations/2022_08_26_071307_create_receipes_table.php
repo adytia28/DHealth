@@ -15,7 +15,7 @@ return new class extends Migration {
             $table->id();
             $table->foreignId('users_id')->constrained('users')->onDelete('cascade');
             $table->string('name')->nullable();
-            $table->boolean('type');
+            $table->string('type');
             $table->integer('quantity');
             $table->foreignId('signa_id');
             $table->timestamps();
