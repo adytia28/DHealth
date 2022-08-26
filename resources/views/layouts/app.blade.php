@@ -31,7 +31,7 @@
 
             <!-- Page Content -->
             <main class="py-12 px-16 flex items-center justify-center">
-                <div class="max-w-7xl container px-16 bg-white lg:px-4 py-6 rounded-md lg:mx-auto">
+                <div class="max-w-7xl container px-12 bg-white  py-6 rounded-md lg:mx-auto">
                     @yield('content')
                 </div>
             </main>
