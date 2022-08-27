@@ -35,7 +35,7 @@ class ReceipeController extends Controller {
         if(!$receipe)
         abort(404);
 
-        $pdf = PDF::loadview('web.pdf.resep-obat',['receipe'=> $receipe]);
+        $pdf = PDF::loadview('web.pdf.resep-obat',['receipe'=> $receipe, 'user_id' => auth()->id()]);
     	return $pdf->download("resep-obat - " . auth()->user()->name .'.pdf');
     }
 }
