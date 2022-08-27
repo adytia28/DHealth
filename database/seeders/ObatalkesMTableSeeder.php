@@ -16,9 +16,9 @@ class ObatalkesMTableSeeder extends Seeder
     {
 
 
-        \DB::table('obatalkes_m')->delete();
+        \DB::table('obatalkes')->delete();
 
-        \DB::table('obatalkes_m')->insert(array (
+        \DB::table('obatalkes')->insert(array (
             0 =>
             array (
                 'obatalkes_id' => 1,
@@ -8520,7 +8520,7 @@ class ObatalkesMTableSeeder extends Seeder
                 'deleted_by' => NULL,
             ),
         ));
-        \DB::table('obatalkes_m')->insert(array (
+        \DB::table('obatalkes')->insert(array (
             0 =>
             array (
                 'obatalkes_id' => 501,
@@ -17022,7 +17022,7 @@ class ObatalkesMTableSeeder extends Seeder
                 'deleted_by' => NULL,
             ),
         ));
-        \DB::table('obatalkes_m')->insert(array (
+        \DB::table('obatalkes')->insert(array (
             0 =>
             array (
                 'obatalkes_id' => 1001,
@@ -25524,7 +25524,7 @@ class ObatalkesMTableSeeder extends Seeder
                 'deleted_by' => NULL,
             ),
         ));
-        \DB::table('obatalkes_m')->insert(array (
+        \DB::table('obatalkes')->insert(array (
             0 =>
             array (
                 'obatalkes_id' => 1501,
@@ -34026,7 +34026,7 @@ class ObatalkesMTableSeeder extends Seeder
                 'deleted_by' => NULL,
             ),
         ));
-        \DB::table('obatalkes_m')->insert(array (
+        \DB::table('obatalkes')->insert(array (
             0 =>
             array (
                 'obatalkes_id' => 2001,

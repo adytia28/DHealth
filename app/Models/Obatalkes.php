@@ -5,7 +5,9 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class SignaM extends Model
+class Obatalkes extends Model
 {
     use HasFactory;
+    protected $primaryKey = 'obatalkes_id';
+    public $timestamps = false;
 }

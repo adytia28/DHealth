@@ -30,8 +30,8 @@
             @endif
 
             <!-- Page Content -->
-            <main class="py-12 px-16 flex items-center justify-center">
-                <div class="max-w-7xl container px-12 bg-white  py-6 rounded-md lg:mx-auto">
+            <main class="py-12 px-4 md:px-16 flex items-center justify-center">
+                <div class="w-full md:max-w-7xl container md:px-12 relative bg-white  py-6 rounded-md lg:mx-auto">
                     @yield('content')
                 </div>
             </main>

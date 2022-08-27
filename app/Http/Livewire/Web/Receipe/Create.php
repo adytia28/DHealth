@@ -3,12 +3,12 @@
 namespace App\Http\Livewire\Web\Receipe;
 
 use App\Models\Concoction;
+use App\Models\Obatalkes;
 use App\Models\Receipe;
-use Illuminate\Support\Facades\DB;
+use App\Models\Signas;
 use Livewire\Component;
 
-class Create extends Component
-{
+class Create extends Component {
     public $type = 'Non-Racikan';
     public $name;
     public $quantity;
@@ -19,7 +19,7 @@ class Create extends Component
 
     public function rules() {
         return [
-            'name' => $this->type == 'Racikan' ? 'required' : '',
+            'name' => $this->type == 'Racikan' ? 'required|unique:receipes' : '',
             'quantity' => 'required|numeric',
             'signa' => 'required',
             'mix' => $this->type == 'Racikan' ? 'required|array|min:2' : 'required|array|max:1',
@@ -34,6 +34,18 @@ class Create extends Component
         ];
     }
 
+    public function updated() {
+        $this->validate([
+            'quantity' => 'required|numeric',
+        ]);
+
+        if($this->type == 'Non-Racikan' && count($this->mix) > 1) {
+            $data = $this->mix[0];
+            $this->mix = [];
+            $this->mix[] = $data;
+        }
+    }
+
     public function save() {
         $this->validate();
 
@@ -46,20 +58,39 @@ class Create extends Component
         $receipe->save();
 
         foreach($this->mix as $item) {
+            $obatalkesId = explode('|', $item)[0];
             $mix = new Concoction;
             $mix->receipes_id = $receipe->id;
-            $mix->obatalkes_id = explode('|', $item)[0];
+            $mix->obatalkes_id = $obatalkesId;
             $mix->save();
+
+            $obatAlkes = Obatalkes::where('obatalkes_id', $obatalkesId)->first();
+            if($obatAlkes && $obatAlkes->stok >= $this->quantity) {
+                $obatAlkes->stok = $obatAlkes->stok - $this->quantity;
+                $obatAlkes->save();
+            }
         }
+
+        return redirect()->route('receipe.index');
     }
 
     public function render() {
-        $medicines =  DB::table('obatalkes_m')->where('stok', '>', 0.99)->where('obatalkes_nama', 'like', "%{$this->medicine}%")->take(10)->get();
-        $signas = DB::table('signa_m')->where('signa_nama', 'like', "%{$this->signa}%")->take(10)->get();
+        $medicines =  Obatalkes::where('obatalkes_nama', 'like', "%{$this->medicine}%")->take(10)->get();
+        $signas = Signas::where('signa_nama', 'like', "%{$this->signa}%")->take(10)->get();
 
         return view('livewire.web.receipe.create', [
             'medicines' => $medicines,
             'signas' => $signas,
         ]);
+    }
+
+    public function setSigna($val) {
+        $this->selectSigna = $val;
+        $this->signa = explode("|", $val)[1];
+    }
+
+    public function clearSigna() {
+        $this->selectSigna = null;
+        $this->signa = null;
     }
 }

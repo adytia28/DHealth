@@ -13,7 +13,7 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('obatalkes_m', function (Blueprint $table) {
+        Schema::create('obatalkes', function (Blueprint $table) {
             $table->id('obatalkes_id');
             $table->string('obatalkes_kode')->nullable();
             $table->string('obatalkes_nama')->nullable();
@@ -38,6 +38,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('obatalkes_m');
+        Schema::dropIfExists('obatalkes');
     }
 };

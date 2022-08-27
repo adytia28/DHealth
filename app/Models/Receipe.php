@@ -10,6 +10,10 @@ class Receipe extends Model
     use HasFactory;
 
     public function signa() {
-        return $this->hasOne(SignaM::class, 'id', 'signa_id');
+        return $this->belongsTo(Signas::class, 'id', 'signa_id');
+    }
+
+    public function concoction() {
+        return $this->hasMany(Concoction::class, 'receipes_id', 'id');
     }
 }

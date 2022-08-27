@@ -18,8 +18,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::middleware(['auth',])->group(function () {
-    Route::prefix('receipe')->group(function () {
+    Route::name('receipe.')->prefix('receipe')->group(function () {
         Route::get('/', [ReceipeController::class, 'index'])->name('index');
         Route::get('/create', [ReceipeController::class, 'create'])->name('create');
+        Route::get('show/{id}', [ReceipeController::class, 'show'])->name('show');
+        Route::get('print/{id}', [ReceipeController::class, 'print'])->name('print');
     });
 });

@@ -14,7 +14,7 @@ return new class extends Migration {
         Schema::create('receipes', function (Blueprint $table) {
             $table->id();
             $table->foreignId('users_id')->constrained('users')->onDelete('cascade');
-            $table->string('name')->nullable();
+            $table->string('name')->nullable()->unique();
             $table->string('type');
             $table->integer('quantity');
             $table->foreignId('signa_id');

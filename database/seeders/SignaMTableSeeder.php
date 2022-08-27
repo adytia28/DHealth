@@ -14,12 +14,12 @@ class SignaMTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
-        \DB::table('signa_m')->delete();
-        
-        \DB::table('signa_m')->insert(array (
-            0 => 
+
+        \DB::table('signas')->delete();
+
+        \DB::table('signas')->insert(array (
+            0 =>
             array (
                 'signa_id' => 1,
                 'signa_kode' => '000.5 T',
@@ -35,7 +35,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            1 => 
+            1 =>
             array (
                 'signa_id' => 2,
                 'signa_kode' => '000.5 T AC',
@@ -51,7 +51,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            2 => 
+            2 =>
             array (
                 'signa_id' => 3,
                 'signa_kode' => '5DD2C',
@@ -67,7 +67,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            3 => 
+            3 =>
             array (
                 'signa_id' => 4,
                 'signa_kode' => 'BSK',
@@ -83,7 +83,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            4 => 
+            4 =>
             array (
                 'signa_id' => 5,
                 'signa_kode' => '1DD1S',
@@ -99,7 +99,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            5 => 
+            5 =>
             array (
                 'signa_id' => 6,
                 'signa_kode' => '1DD3G OD',
@@ -115,7 +115,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            6 => 
+            6 =>
             array (
                 'signa_id' => 7,
                 'signa_kode' => '1DD4ML',
@@ -131,7 +131,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            7 => 
+            7 =>
             array (
                 'signa_id' => 8,
                 'signa_kode' => '1DD3S',
@@ -147,7 +147,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            8 => 
+            8 =>
             array (
                 'signa_id' => 9,
                 'signa_kode' => '1DD5I',
@@ -163,7 +163,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            9 => 
+            9 =>
             array (
                 'signa_id' => 10,
                 'signa_kode' => '1DD6ML',
@@ -179,7 +179,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            10 => 
+            10 =>
             array (
                 'signa_id' => 11,
                 'signa_kode' => '1DD6T PC',
@@ -195,7 +195,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            11 => 
+            11 =>
             array (
                 'signa_id' => 12,
                 'signa_kode' => NULL,
@@ -211,7 +211,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            12 => 
+            12 =>
             array (
                 'signa_id' => 13,
                 'signa_kode' => '23DDO',
@@ -227,7 +227,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            13 => 
+            13 =>
             array (
                 'signa_id' => 14,
                 'signa_kode' => '2DD2C',
@@ -243,7 +243,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            14 => 
+            14 =>
             array (
                 'signa_id' => 15,
                 'signa_kode' => '2DD4C',
@@ -259,7 +259,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            15 => 
+            15 =>
             array (
                 'signa_id' => 16,
                 'signa_kode' => '2DD8ML',
@@ -275,7 +275,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            16 => 
+            16 =>
             array (
                 'signa_id' => 17,
                 'signa_kode' => '2DD4G MI',
@@ -291,7 +291,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            17 => 
+            17 =>
             array (
                 'signa_id' => 18,
                 'signa_kode' => '2DD2G MI',
@@ -307,7 +307,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            18 => 
+            18 =>
             array (
                 'signa_id' => 19,
                 'signa_kode' => '2DDO',
@@ -323,7 +323,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            19 => 
+            19 =>
             array (
                 'signa_id' => 20,
                 'signa_kode' => '2DD5T',
@@ -339,7 +339,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            20 => 
+            20 =>
             array (
                 'signa_id' => 21,
                 'signa_kode' => '2DD6T',
@@ -355,7 +355,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            21 => 
+            21 =>
             array (
                 'signa_id' => 22,
                 'signa_kode' => '3DD0.25T',
@@ -371,7 +371,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            22 => 
+            22 =>
             array (
                 'signa_id' => 23,
                 'signa_kode' => '3DD3C',
@@ -387,7 +387,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            23 => 
+            23 =>
             array (
                 'signa_id' => 24,
                 'signa_kode' => '1W2T',
@@ -403,7 +403,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            24 => 
+            24 =>
             array (
                 'signa_id' => 25,
                 'signa_kode' => '4DD0.25T AC',
@@ -419,7 +419,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            25 => 
+            25 =>
             array (
                 'signa_id' => 26,
                 'signa_kode' => '4DD3ML',
@@ -435,7 +435,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            26 => 
+            26 =>
             array (
                 'signa_id' => 27,
                 'signa_kode' => '4DD7.5ML',
@@ -451,7 +451,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            27 => 
+            27 =>
             array (
                 'signa_id' => 28,
                 'signa_kode' => '4DD7ML',
@@ -467,7 +467,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            28 => 
+            28 =>
             array (
                 'signa_id' => 29,
                 'signa_kode' => '6DD0.5T',
@@ -483,7 +483,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            29 => 
+            29 =>
             array (
                 'signa_id' => 30,
                 'signa_kode' => '4DD6T',
@@ -499,7 +499,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            30 => 
+            30 =>
             array (
                 'signa_id' => 31,
                 'signa_kode' => '5DD1.25ML',
@@ -515,7 +515,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            31 => 
+            31 =>
             array (
                 'signa_id' => 32,
                 'signa_kode' => '5DD5ML',
@@ -531,7 +531,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            32 => 
+            32 =>
             array (
                 'signa_id' => 33,
                 'signa_kode' => 'OL ',
@@ -547,7 +547,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            33 => 
+            33 =>
             array (
                 'signa_id' => 34,
                 'signa_kode' => '3DD5ML',
@@ -563,7 +563,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            34 => 
+            34 =>
             array (
                 'signa_id' => 35,
                 'signa_kode' => '6DD3ML',
@@ -579,7 +579,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            35 => 
+            35 =>
             array (
                 'signa_id' => 36,
                 'signa_kode' => '6DD1T',
@@ -595,7 +595,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            36 => 
+            36 =>
             array (
                 'signa_id' => 37,
                 'signa_kode' => '6DD4ML',
@@ -611,7 +611,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            37 => 
+            37 =>
             array (
                 'signa_id' => 38,
                 'signa_kode' => '101 C',
@@ -627,7 +627,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            38 => 
+            38 =>
             array (
                 'signa_id' => 39,
                 'signa_kode' => '101 C AC',
@@ -643,7 +643,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            39 => 
+            39 =>
             array (
                 'signa_id' => 40,
                 'signa_kode' => '101 C PC',
@@ -659,7 +659,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            40 => 
+            40 =>
             array (
                 'signa_id' => 41,
                 'signa_kode' => '101 T AC',
@@ -675,7 +675,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            41 => 
+            41 =>
             array (
                 'signa_id' => 42,
                 'signa_kode' => '101 T PC',
@@ -691,7 +691,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            42 => 
+            42 =>
             array (
                 'signa_id' => 43,
                 'signa_kode' => '110 C',
@@ -707,7 +707,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            43 => 
+            43 =>
             array (
                 'signa_id' => 44,
                 'signa_kode' => '110 C AC',
@@ -723,7 +723,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            44 => 
+            44 =>
             array (
                 'signa_id' => 45,
                 'signa_kode' => '110 C PC',
@@ -739,7 +739,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            45 => 
+            45 =>
             array (
                 'signa_id' => 46,
                 'signa_kode' => '110 S',
@@ -755,7 +755,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            46 => 
+            46 =>
             array (
                 'signa_id' => 47,
                 'signa_kode' => '110 T',
@@ -771,7 +771,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            47 => 
+            47 =>
             array (
                 'signa_id' => 48,
                 'signa_kode' => '110 T AC',
@@ -787,7 +787,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            48 => 
+            48 =>
             array (
                 'signa_id' => 49,
                 'signa_kode' => '110 T PC',
@@ -803,7 +803,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            49 => 
+            49 =>
             array (
                 'signa_id' => 50,
                 'signa_kode' => '3DD2T',
@@ -819,7 +819,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            50 => 
+            50 =>
             array (
                 'signa_id' => 51,
                 'signa_kode' => '5DD2T',
@@ -835,7 +835,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            51 => 
+            51 =>
             array (
                 'signa_id' => 52,
                 'signa_kode' => '5DD2T AC',
@@ -851,7 +851,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            52 => 
+            52 =>
             array (
                 'signa_id' => 53,
                 'signa_kode' => '5DD2T PC',
@@ -867,7 +867,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            53 => 
+            53 =>
             array (
                 'signa_id' => 54,
                 'signa_kode' => '5DD30ML',
@@ -883,7 +883,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            54 => 
+            54 =>
             array (
                 'signa_id' => 55,
                 'signa_kode' => '5DD30ML AC',
@@ -899,7 +899,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            55 => 
+            55 =>
             array (
                 'signa_id' => 56,
                 'signa_kode' => '5DD30ML PC',
@@ -915,7 +915,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            56 => 
+            56 =>
             array (
                 'signa_id' => 57,
                 'signa_kode' => '5DD3C',
@@ -931,7 +931,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            57 => 
+            57 =>
             array (
                 'signa_id' => 58,
                 'signa_kode' => '0-00.5 C PC',
@@ -947,7 +947,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            58 => 
+            58 =>
             array (
                 'signa_id' => 59,
                 'signa_kode' => '3DD6I',
@@ -963,7 +963,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            59 => 
+            59 =>
             array (
                 'signa_id' => 60,
                 'signa_kode' => '020 C PC',
@@ -979,7 +979,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            60 => 
+            60 =>
             array (
                 'signa_id' => 61,
                 'signa_kode' => '1DD0.25T PC',
@@ -995,7 +995,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            61 => 
+            61 =>
             array (
                 'signa_id' => 62,
                 'signa_kode' => '1DD0.25T S',
@@ -1011,7 +1011,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            62 => 
+            62 =>
             array (
                 'signa_id' => 63,
                 'signa_kode' => '020 S',
@@ -1027,7 +1027,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            63 => 
+            63 =>
             array (
                 'signa_id' => 64,
                 'signa_kode' => '5DD25ML PC',
@@ -1043,7 +1043,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            64 => 
+            64 =>
             array (
                 'signa_id' => 65,
                 'signa_kode' => '020 T',
@@ -1059,7 +1059,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            65 => 
+            65 =>
             array (
                 'signa_id' => 66,
                 'signa_kode' => '020 T AC',
@@ -1075,7 +1075,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            66 => 
+            66 =>
             array (
                 'signa_id' => 67,
                 'signa_kode' => '5DD2G ND',
@@ -1091,7 +1091,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            67 => 
+            67 =>
             array (
                 'signa_id' => 68,
                 'signa_kode' => '5DD2G NDS',
@@ -1107,7 +1107,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            68 => 
+            68 =>
             array (
                 'signa_id' => 69,
                 'signa_kode' => '5DD2G NS',
@@ -1123,7 +1123,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            69 => 
+            69 =>
             array (
                 'signa_id' => 70,
                 'signa_kode' => '5DD2G OD',
@@ -1139,7 +1139,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            70 => 
+            70 =>
             array (
                 'signa_id' => 71,
                 'signa_kode' => '5DD2G ODS',
@@ -1155,7 +1155,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            71 => 
+            71 =>
             array (
                 'signa_id' => 72,
                 'signa_kode' => '5DD2G OS',
@@ -1171,7 +1171,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            72 => 
+            72 =>
             array (
                 'signa_id' => 73,
                 'signa_kode' => '5DD2ML AC',
@@ -1187,7 +1187,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            73 => 
+            73 =>
             array (
                 'signa_id' => 74,
                 'signa_kode' => '1DD0.2ML AC',
@@ -1203,7 +1203,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            74 => 
+            74 =>
             array (
                 'signa_id' => 75,
                 'signa_kode' => '020 T PC',
@@ -1219,7 +1219,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            75 => 
+            75 =>
             array (
                 'signa_id' => 76,
                 'signa_kode' => '1DD1SUP',
@@ -1235,7 +1235,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            76 => 
+            76 =>
             array (
                 'signa_id' => 77,
                 'signa_kode' => '022 C',
@@ -1251,7 +1251,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            77 => 
+            77 =>
             array (
                 'signa_id' => 78,
                 'signa_kode' => '022 C AC',
@@ -1267,7 +1267,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            78 => 
+            78 =>
             array (
                 'signa_id' => 79,
                 'signa_kode' => '022 C PC',
@@ -1283,7 +1283,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            79 => 
+            79 =>
             array (
                 'signa_id' => 80,
                 'signa_kode' => '022 S',
@@ -1299,7 +1299,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            80 => 
+            80 =>
             array (
                 'signa_id' => 81,
                 'signa_kode' => '022 T',
@@ -1315,7 +1315,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            81 => 
+            81 =>
             array (
                 'signa_id' => 82,
                 'signa_kode' => '022 T AC',
@@ -1331,7 +1331,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            82 => 
+            82 =>
             array (
                 'signa_id' => 83,
                 'signa_kode' => '022 T PC',
@@ -1347,7 +1347,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            83 => 
+            83 =>
             array (
                 'signa_id' => 84,
                 'signa_kode' => '3DDOL C',
@@ -1363,7 +1363,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            84 => 
+            84 =>
             array (
                 'signa_id' => 85,
                 'signa_kode' => '0.500 C',
@@ -1379,7 +1379,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            85 => 
+            85 =>
             array (
                 'signa_id' => 86,
                 'signa_kode' => '0.500 C AC',
@@ -1395,7 +1395,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            86 => 
+            86 =>
             array (
                 'signa_id' => 87,
                 'signa_kode' => '0.500 C PC',
@@ -1411,7 +1411,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            87 => 
+            87 =>
             array (
                 'signa_id' => 88,
                 'signa_kode' => '0.500 T',
@@ -1427,7 +1427,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            88 => 
+            88 =>
             array (
                 'signa_id' => 89,
                 'signa_kode' => '1DD2T P',
@@ -1443,7 +1443,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            89 => 
+            89 =>
             array (
                 'signa_id' => 90,
                 'signa_kode' => '1DD30ML AC',
@@ -1459,7 +1459,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            90 => 
+            90 =>
             array (
                 'signa_id' => 91,
                 'signa_kode' => '1DD6G NS',
@@ -1475,7 +1475,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            91 => 
+            91 =>
             array (
                 'signa_id' => 92,
                 'signa_kode' => '220 C AC',
@@ -1491,7 +1491,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            92 => 
+            92 =>
             array (
                 'signa_id' => 93,
                 'signa_kode' => '2DD0.7ML AC',
@@ -1507,7 +1507,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            93 => 
+            93 =>
             array (
                 'signa_id' => 94,
                 'signa_kode' => '2DD0.8ML',
@@ -1523,7 +1523,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            94 => 
+            94 =>
             array (
                 'signa_id' => 95,
                 'signa_kode' => '2DD6ML AC',
@@ -1539,7 +1539,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            95 => 
+            95 =>
             array (
                 'signa_id' => 96,
                 'signa_kode' => '3DD1ML',
@@ -1555,7 +1555,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            96 => 
+            96 =>
             array (
                 'signa_id' => 97,
                 'signa_kode' => '3DD25ML',
@@ -1571,7 +1571,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            97 => 
+            97 =>
             array (
                 'signa_id' => 98,
                 'signa_kode' => '3DD6B',
@@ -1587,7 +1587,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            98 => 
+            98 =>
             array (
                 'signa_id' => 99,
                 'signa_kode' => '3DD0.25T AC',
@@ -1603,7 +1603,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            99 => 
+            99 =>
             array (
                 'signa_id' => 100,
                 'signa_kode' => '3DD6T',
@@ -1619,7 +1619,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            100 => 
+            100 =>
             array (
                 'signa_id' => 101,
                 'signa_kode' => '5DD15ML PC',
@@ -1635,7 +1635,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            101 => 
+            101 =>
             array (
                 'signa_id' => 102,
                 'signa_kode' => '4DD2C PC',
@@ -1651,7 +1651,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            102 => 
+            102 =>
             array (
                 'signa_id' => 103,
                 'signa_kode' => '5DD0.25T PC',
@@ -1667,7 +1667,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            103 => 
+            103 =>
             array (
                 'signa_id' => 104,
                 'signa_kode' => '6DD2G OD',
@@ -1683,7 +1683,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            104 => 
+            104 =>
             array (
                 'signa_id' => 105,
                 'signa_kode' => '5DD3T PC',
@@ -1699,7 +1699,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            105 => 
+            105 =>
             array (
                 'signa_id' => 106,
                 'signa_kode' => '6DD5T',
@@ -1715,7 +1715,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            106 => 
+            106 =>
             array (
                 'signa_id' => 107,
                 'signa_kode' => '5DD6ML AC',
@@ -1731,7 +1731,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            107 => 
+            107 =>
             array (
                 'signa_id' => 108,
                 'signa_kode' => '2DD1I',
@@ -1747,7 +1747,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            108 => 
+            108 =>
             array (
                 'signa_id' => 109,
                 'signa_kode' => '111 C',
@@ -1763,7 +1763,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            109 => 
+            109 =>
             array (
                 'signa_id' => 110,
                 'signa_kode' => '111 C AC',
@@ -1779,7 +1779,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            110 => 
+            110 =>
             array (
                 'signa_id' => 111,
                 'signa_kode' => '6DD30ML AC',
@@ -1795,7 +1795,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            111 => 
+            111 =>
             array (
                 'signa_id' => 112,
                 'signa_kode' => '6DD30ML PC',
@@ -1811,7 +1811,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            112 => 
+            112 =>
             array (
                 'signa_id' => 113,
                 'signa_kode' => '111 C PC',
@@ -1827,7 +1827,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            113 => 
+            113 =>
             array (
                 'signa_id' => 114,
                 'signa_kode' => '111 S',
@@ -1843,7 +1843,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            114 => 
+            114 =>
             array (
                 'signa_id' => 115,
                 'signa_kode' => '111 T',
@@ -1859,7 +1859,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            115 => 
+            115 =>
             array (
                 'signa_id' => 116,
                 'signa_kode' => '111 T AC',
@@ -1875,7 +1875,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            116 => 
+            116 =>
             array (
                 'signa_id' => 117,
                 'signa_kode' => '111 T PC',
@@ -1891,7 +1891,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            117 => 
+            117 =>
             array (
                 'signa_id' => 118,
                 'signa_kode' => '1DD0.1ML PC',
@@ -1907,7 +1907,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            118 => 
+            118 =>
             array (
                 'signa_id' => 119,
                 'signa_kode' => '1DD0.25ML',
@@ -1923,7 +1923,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            119 => 
+            119 =>
             array (
                 'signa_id' => 120,
                 'signa_kode' => '1DD0.25ML AC',
@@ -1939,7 +1939,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            120 => 
+            120 =>
             array (
                 'signa_id' => 121,
                 'signa_kode' => '1DD0.25ML PC',
@@ -1955,7 +1955,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            121 => 
+            121 =>
             array (
                 'signa_id' => 122,
                 'signa_kode' => '1DD0.25T',
@@ -1971,7 +1971,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            122 => 
+            122 =>
             array (
                 'signa_id' => 123,
                 'signa_kode' => '1DD0.25T AC',
@@ -1987,7 +1987,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            123 => 
+            123 =>
             array (
                 'signa_id' => 124,
                 'signa_kode' => '1DD0.25T M',
@@ -2003,7 +2003,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            124 => 
+            124 =>
             array (
                 'signa_id' => 125,
                 'signa_kode' => '1DD0.25T P',
@@ -2019,7 +2019,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            125 => 
+            125 =>
             array (
                 'signa_id' => 126,
                 'signa_kode' => 'OL GA',
@@ -2035,7 +2035,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            126 => 
+            126 =>
             array (
                 'signa_id' => 127,
                 'signa_kode' => '5DD20ML PC',
@@ -2051,7 +2051,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            127 => 
+            127 =>
             array (
                 'signa_id' => 128,
                 'signa_kode' => 'LU',
@@ -2067,7 +2067,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            128 => 
+            128 =>
             array (
                 'signa_id' => 129,
                 'signa_kode' => '5DD25ML',
@@ -2083,7 +2083,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            129 => 
+            129 =>
             array (
                 'signa_id' => 130,
                 'signa_kode' => '1DD0.2ML',
@@ -2099,7 +2099,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            130 => 
+            130 =>
             array (
                 'signa_id' => 131,
                 'signa_kode' => '5DD2ML PC',
@@ -2115,7 +2115,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            131 => 
+            131 =>
             array (
                 'signa_id' => 132,
                 'signa_kode' => '1DD0.2ML PC',
@@ -2131,7 +2131,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            132 => 
+            132 =>
             array (
                 'signa_id' => 133,
                 'signa_kode' => '1DD0.3ML PC',
@@ -2147,7 +2147,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            133 => 
+            133 =>
             array (
                 'signa_id' => 134,
                 'signa_kode' => '1DD0.4ML',
@@ -2163,7 +2163,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            134 => 
+            134 =>
             array (
                 'signa_id' => 135,
                 'signa_kode' => '1DD0.4ML AC',
@@ -2179,7 +2179,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            135 => 
+            135 =>
             array (
                 'signa_id' => 136,
                 'signa_kode' => '1DD0.4ML PC',
@@ -2195,7 +2195,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            136 => 
+            136 =>
             array (
                 'signa_id' => 137,
                 'signa_kode' => '1DD0.5ML',
@@ -2211,7 +2211,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            137 => 
+            137 =>
             array (
                 'signa_id' => 138,
                 'signa_kode' => '1DD0.5ML AC',
@@ -2227,7 +2227,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            138 => 
+            138 =>
             array (
                 'signa_id' => 139,
                 'signa_kode' => '1DD0.5ML PC',
@@ -2243,7 +2243,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            139 => 
+            139 =>
             array (
                 'signa_id' => 140,
                 'signa_kode' => '1DD0.5T',
@@ -2259,7 +2259,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            140 => 
+            140 =>
             array (
                 'signa_id' => 141,
                 'signa_kode' => '3DD3I',
@@ -2275,7 +2275,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            141 => 
+            141 =>
             array (
                 'signa_id' => 142,
                 'signa_kode' => '1DD0.5T AC',
@@ -2291,7 +2291,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            142 => 
+            142 =>
             array (
                 'signa_id' => 143,
                 'signa_kode' => '1DD0.5T I4 DST',
@@ -2307,7 +2307,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            143 => 
+            143 =>
             array (
                 'signa_id' => 144,
                 'signa_kode' => '1DD0.5T M',
@@ -2323,7 +2323,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            144 => 
+            144 =>
             array (
                 'signa_id' => 145,
                 'signa_kode' => '1DD0.5T PC',
@@ -2339,7 +2339,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            145 => 
+            145 =>
             array (
                 'signa_id' => 146,
                 'signa_kode' => '1DD0.5T S',
@@ -2355,7 +2355,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            146 => 
+            146 =>
             array (
                 'signa_id' => 147,
                 'signa_kode' => '1DD0.6ML',
@@ -2371,7 +2371,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            147 => 
+            147 =>
             array (
                 'signa_id' => 148,
                 'signa_kode' => '1DD0.6ML AC',
@@ -2387,7 +2387,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            148 => 
+            148 =>
             array (
                 'signa_id' => 149,
                 'signa_kode' => '1DD0.6ML PC',
@@ -2403,7 +2403,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            149 => 
+            149 =>
             array (
                 'signa_id' => 150,
                 'signa_kode' => '1DD0.75T',
@@ -2419,7 +2419,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            150 => 
+            150 =>
             array (
                 'signa_id' => 151,
                 'signa_kode' => '1DD0.75T AC',
@@ -2435,7 +2435,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            151 => 
+            151 =>
             array (
                 'signa_id' => 152,
                 'signa_kode' => '1DD0.75T M',
@@ -2451,7 +2451,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            152 => 
+            152 =>
             array (
                 'signa_id' => 153,
                 'signa_kode' => '1DD0.75T P',
@@ -2467,7 +2467,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            153 => 
+            153 =>
             array (
                 'signa_id' => 154,
                 'signa_kode' => '1DD0.75T PC',
@@ -2483,7 +2483,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            154 => 
+            154 =>
             array (
                 'signa_id' => 155,
                 'signa_kode' => '1DD0.75T S',
@@ -2499,7 +2499,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            155 => 
+            155 =>
             array (
                 'signa_id' => 156,
                 'signa_kode' => '1DD0.7ML AC',
@@ -2515,7 +2515,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            156 => 
+            156 =>
             array (
                 'signa_id' => 157,
                 'signa_kode' => '6DD5ML PC',
@@ -2531,7 +2531,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            157 => 
+            157 =>
             array (
                 'signa_id' => 158,
                 'signa_kode' => 'OL M',
@@ -2547,7 +2547,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            158 => 
+            158 =>
             array (
                 'signa_id' => 159,
                 'signa_kode' => '1DD0.7ML PC',
@@ -2563,7 +2563,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            159 => 
+            159 =>
             array (
                 'signa_id' => 160,
                 'signa_kode' => '1DD0.8ML',
@@ -2579,7 +2579,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            160 => 
+            160 =>
             array (
                 'signa_id' => 161,
                 'signa_kode' => '1DD0.8ML AC',
@@ -2595,7 +2595,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            161 => 
+            161 =>
             array (
                 'signa_id' => 162,
                 'signa_kode' => '1DD0.8ML PC',
@@ -2611,7 +2611,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            162 => 
+            162 =>
             array (
                 'signa_id' => 163,
                 'signa_kode' => '1DD1.25ML AC',
@@ -2627,7 +2627,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            163 => 
+            163 =>
             array (
                 'signa_id' => 164,
                 'signa_kode' => '1DD1.25ML PC',
@@ -2643,7 +2643,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            164 => 
+            164 =>
             array (
                 'signa_id' => 165,
                 'signa_kode' => '1DD1.5ML',
@@ -2659,7 +2659,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            165 => 
+            165 =>
             array (
                 'signa_id' => 166,
                 'signa_kode' => '1DD1.5ML AC',
@@ -2675,7 +2675,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            166 => 
+            166 =>
             array (
                 'signa_id' => 167,
                 'signa_kode' => '1DD1.5ML PC',
@@ -2691,7 +2691,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            167 => 
+            167 =>
             array (
                 'signa_id' => 168,
                 'signa_kode' => '1DD10G MI',
@@ -2707,7 +2707,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            168 => 
+            168 =>
             array (
                 'signa_id' => 169,
                 'signa_kode' => '1DD10ML AC',
@@ -2723,7 +2723,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            169 => 
+            169 =>
             array (
                 'signa_id' => 170,
                 'signa_kode' => '1DD10ML PC',
@@ -2739,7 +2739,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            170 => 
+            170 =>
             array (
                 'signa_id' => 171,
                 'signa_kode' => '1DD12ML PC',
@@ -2755,7 +2755,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            171 => 
+            171 =>
             array (
                 'signa_id' => 172,
                 'signa_kode' => '1DD15ML AC',
@@ -2771,7 +2771,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            172 => 
+            172 =>
             array (
                 'signa_id' => 173,
                 'signa_kode' => '1DD15ML PC',
@@ -2787,7 +2787,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            173 => 
+            173 =>
             array (
                 'signa_id' => 174,
                 'signa_kode' => '1DD1B',
@@ -2803,7 +2803,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            174 => 
+            174 =>
             array (
                 'signa_id' => 175,
                 'signa_kode' => '1DD1B AC',
@@ -2819,7 +2819,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            175 => 
+            175 =>
             array (
                 'signa_id' => 176,
                 'signa_kode' => '1DD1B PC',
@@ -2835,7 +2835,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            176 => 
+            176 =>
             array (
                 'signa_id' => 177,
                 'signa_kode' => '1DD1C',
@@ -2851,7 +2851,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            177 => 
+            177 =>
             array (
                 'signa_id' => 178,
                 'signa_kode' => '1DD1C AB',
@@ -2867,7 +2867,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            178 => 
+            178 =>
             array (
                 'signa_id' => 179,
                 'signa_kode' => '1DD1C AC',
@@ -2883,7 +2883,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            179 => 
+            179 =>
             array (
                 'signa_id' => 180,
                 'signa_kode' => '1DD1C AV',
@@ -2899,7 +2899,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            180 => 
+            180 =>
             array (
                 'signa_id' => 181,
                 'signa_kode' => '1DD1C M',
@@ -2915,7 +2915,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            181 => 
+            181 =>
             array (
                 'signa_id' => 182,
                 'signa_kode' => '1DD1C P',
@@ -2931,7 +2931,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            182 => 
+            182 =>
             array (
                 'signa_id' => 183,
                 'signa_kode' => '1DD1C P PC',
@@ -2947,7 +2947,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            183 => 
+            183 =>
             array (
                 'signa_id' => 184,
                 'signa_kode' => '1DD1C P PC AD',
@@ -2963,7 +2963,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            184 => 
+            184 =>
             array (
                 'signa_id' => 185,
                 'signa_kode' => '1DD1C PC',
@@ -2979,7 +2979,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            185 => 
+            185 =>
             array (
                 'signa_id' => 186,
                 'signa_kode' => '1DD1C S',
@@ -2995,7 +2995,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            186 => 
+            186 =>
             array (
                 'signa_id' => 187,
                 'signa_kode' => '1DD1C TI',
@@ -3011,7 +3011,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            187 => 
+            187 =>
             array (
                 'signa_id' => 188,
                 'signa_kode' => '1DD1G AD',
@@ -3027,7 +3027,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            188 => 
+            188 =>
             array (
                 'signa_id' => 189,
                 'signa_kode' => '1DD1G ADS',
@@ -3043,7 +3043,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            189 => 
+            189 =>
             array (
                 'signa_id' => 190,
                 'signa_kode' => '1DD1G AS',
@@ -3059,7 +3059,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            190 => 
+            190 =>
             array (
                 'signa_id' => 191,
                 'signa_kode' => '1DD1G MI',
@@ -3075,7 +3075,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            191 => 
+            191 =>
             array (
                 'signa_id' => 192,
                 'signa_kode' => '1DD1G ND',
@@ -3091,7 +3091,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            192 => 
+            192 =>
             array (
                 'signa_id' => 193,
                 'signa_kode' => '1DD1G NDS',
@@ -3107,7 +3107,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            193 => 
+            193 =>
             array (
                 'signa_id' => 194,
                 'signa_kode' => '1DD1G NS',
@@ -3123,7 +3123,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            194 => 
+            194 =>
             array (
                 'signa_id' => 195,
                 'signa_kode' => '1DD1G OD',
@@ -3139,7 +3139,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            195 => 
+            195 =>
             array (
                 'signa_id' => 196,
                 'signa_kode' => '1DD1G ODS',
@@ -3155,7 +3155,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            196 => 
+            196 =>
             array (
                 'signa_id' => 197,
                 'signa_kode' => '1DD1G OS',
@@ -3171,7 +3171,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            197 => 
+            197 =>
             array (
                 'signa_id' => 198,
                 'signa_kode' => '1DD1I',
@@ -3187,7 +3187,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            198 => 
+            198 =>
             array (
                 'signa_id' => 199,
                 'signa_kode' => '1DD1IJ',
@@ -3203,7 +3203,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            199 => 
+            199 =>
             array (
                 'signa_id' => 200,
                 'signa_kode' => '1DD1ML AC',
@@ -3219,7 +3219,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            200 => 
+            200 =>
             array (
                 'signa_id' => 201,
                 'signa_kode' => '1DD1ML PC',
@@ -3235,7 +3235,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            201 => 
+            201 =>
             array (
                 'signa_id' => 202,
                 'signa_kode' => '1DD1T',
@@ -3251,7 +3251,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            202 => 
+            202 =>
             array (
                 'signa_id' => 203,
                 'signa_kode' => '1DD1T 15M AC',
@@ -3267,7 +3267,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            203 => 
+            203 =>
             array (
                 'signa_id' => 204,
                 'signa_kode' => '1DD1T 15M AC M',
@@ -3283,7 +3283,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            204 => 
+            204 =>
             array (
                 'signa_id' => 205,
                 'signa_kode' => '1DD1ML',
@@ -3299,7 +3299,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            205 => 
+            205 =>
             array (
                 'signa_id' => 206,
                 'signa_kode' => '1DD1T 15M AC P',
@@ -3315,7 +3315,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            206 => 
+            206 =>
             array (
                 'signa_id' => 207,
                 'signa_kode' => '010 C AC SS',
@@ -3331,7 +3331,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            207 => 
+            207 =>
             array (
                 'signa_id' => 208,
                 'signa_kode' => '010 C DC SS',
@@ -3347,7 +3347,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            208 => 
+            208 =>
             array (
                 'signa_id' => 209,
                 'signa_kode' => '100 C SS',
@@ -3363,7 +3363,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            209 => 
+            209 =>
             array (
                 'signa_id' => 210,
                 'signa_kode' => '2DD1.25ML AL',
@@ -3379,7 +3379,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            210 => 
+            210 =>
             array (
                 'signa_id' => 211,
                 'signa_kode' => '100 C PC SS',
@@ -3395,7 +3395,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            211 => 
+            211 =>
             array (
                 'signa_id' => 212,
                 'signa_kode' => '100 C AC SS',
@@ -3411,7 +3411,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            212 => 
+            212 =>
             array (
                 'signa_id' => 213,
                 'signa_kode' => '1DD1T 15M AC S',
@@ -3427,7 +3427,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            213 => 
+            213 =>
             array (
                 'signa_id' => 214,
                 'signa_kode' => '1DD1T 30M AC',
@@ -3443,7 +3443,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            214 => 
+            214 =>
             array (
                 'signa_id' => 215,
                 'signa_kode' => '1DD1T 30M AC M',
@@ -3459,7 +3459,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            215 => 
+            215 =>
             array (
                 'signa_id' => 216,
                 'signa_kode' => '1DD1T 30M AC P',
@@ -3475,7 +3475,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            216 => 
+            216 =>
             array (
                 'signa_id' => 217,
                 'signa_kode' => '1DD1T 30M AC S',
@@ -3491,7 +3491,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            217 => 
+            217 =>
             array (
                 'signa_id' => 218,
                 'signa_kode' => '1DD1T AC',
@@ -3507,7 +3507,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            218 => 
+            218 =>
             array (
                 'signa_id' => 219,
                 'signa_kode' => '1DD1T AV',
@@ -3523,7 +3523,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            219 => 
+            219 =>
             array (
                 'signa_id' => 220,
                 'signa_kode' => '1DD1T M',
@@ -3539,7 +3539,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            220 => 
+            220 =>
             array (
                 'signa_id' => 221,
                 'signa_kode' => '1DD1T MU',
@@ -3555,7 +3555,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            221 => 
+            221 =>
             array (
                 'signa_id' => 222,
                 'signa_kode' => '1DD1T P',
@@ -3571,7 +3571,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            222 => 
+            222 =>
             array (
                 'signa_id' => 223,
                 'signa_kode' => '1DD1T S',
@@ -3587,7 +3587,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            223 => 
+            223 =>
             array (
                 'signa_id' => 224,
                 'signa_kode' => '1DD1VT ',
@@ -3603,7 +3603,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            224 => 
+            224 =>
             array (
                 'signa_id' => 225,
                 'signa_kode' => '1DD2.5ML',
@@ -3619,7 +3619,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            225 => 
+            225 =>
             array (
                 'signa_id' => 226,
                 'signa_kode' => '1DD2.5ML AC',
@@ -3635,7 +3635,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            226 => 
+            226 =>
             array (
                 'signa_id' => 227,
                 'signa_kode' => '1DD2.5ML PC',
@@ -3651,7 +3651,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            227 => 
+            227 =>
             array (
                 'signa_id' => 228,
                 'signa_kode' => '1DD20ML',
@@ -3667,7 +3667,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            228 => 
+            228 =>
             array (
                 'signa_id' => 229,
                 'signa_kode' => '1DD20ML AC',
@@ -3683,7 +3683,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            229 => 
+            229 =>
             array (
                 'signa_id' => 230,
                 'signa_kode' => '1DD20ML PC',
@@ -3699,7 +3699,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            230 => 
+            230 =>
             array (
                 'signa_id' => 231,
                 'signa_kode' => '1DD25ML',
@@ -3715,7 +3715,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            231 => 
+            231 =>
             array (
                 'signa_id' => 232,
                 'signa_kode' => '1DD25ML AC',
@@ -3731,7 +3731,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            232 => 
+            232 =>
             array (
                 'signa_id' => 233,
                 'signa_kode' => '1DD25ML PC',
@@ -3747,7 +3747,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            233 => 
+            233 =>
             array (
                 'signa_id' => 234,
                 'signa_kode' => '1DD2B',
@@ -3763,7 +3763,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            234 => 
+            234 =>
             array (
                 'signa_id' => 235,
                 'signa_kode' => '1DD2B AC',
@@ -3779,7 +3779,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            235 => 
+            235 =>
             array (
                 'signa_id' => 236,
                 'signa_kode' => '1DD2B PC',
@@ -3795,7 +3795,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            236 => 
+            236 =>
             array (
                 'signa_id' => 237,
                 'signa_kode' => '1DD2C',
@@ -3811,7 +3811,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            237 => 
+            237 =>
             array (
                 'signa_id' => 238,
                 'signa_kode' => '1DD2C AC',
@@ -3827,7 +3827,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            238 => 
+            238 =>
             array (
                 'signa_id' => 239,
                 'signa_kode' => '1DD2C M',
@@ -3843,7 +3843,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            239 => 
+            239 =>
             array (
                 'signa_id' => 240,
                 'signa_kode' => '1DD2C P',
@@ -3859,7 +3859,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            240 => 
+            240 =>
             array (
                 'signa_id' => 241,
                 'signa_kode' => '1DD2C PC',
@@ -3875,7 +3875,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            241 => 
+            241 =>
             array (
                 'signa_id' => 242,
                 'signa_kode' => '1DD2C S',
@@ -3891,7 +3891,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            242 => 
+            242 =>
             array (
                 'signa_id' => 243,
                 'signa_kode' => '1DD2G AD',
@@ -3907,7 +3907,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            243 => 
+            243 =>
             array (
                 'signa_id' => 244,
                 'signa_kode' => '1DD2G ADS',
@@ -3923,7 +3923,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            244 => 
+            244 =>
             array (
                 'signa_id' => 245,
                 'signa_kode' => '1DD2G AS',
@@ -3939,7 +3939,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            245 => 
+            245 =>
             array (
                 'signa_id' => 246,
                 'signa_kode' => '1DD2G MI',
@@ -3955,7 +3955,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            246 => 
+            246 =>
             array (
                 'signa_id' => 247,
                 'signa_kode' => '1DD2G ND',
@@ -3971,7 +3971,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            247 => 
+            247 =>
             array (
                 'signa_id' => 248,
                 'signa_kode' => '1DD2G NDS',
@@ -3987,7 +3987,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            248 => 
+            248 =>
             array (
                 'signa_id' => 249,
                 'signa_kode' => '1DD2G NS',
@@ -4003,7 +4003,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            249 => 
+            249 =>
             array (
                 'signa_id' => 250,
                 'signa_kode' => '1DD2G OD',
@@ -4019,7 +4019,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            250 => 
+            250 =>
             array (
                 'signa_id' => 251,
                 'signa_kode' => '1DD2G ODS',
@@ -4035,7 +4035,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            251 => 
+            251 =>
             array (
                 'signa_id' => 252,
                 'signa_kode' => '1DD2G OS',
@@ -4051,7 +4051,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            252 => 
+            252 =>
             array (
                 'signa_id' => 253,
                 'signa_kode' => '1DD2I',
@@ -4067,7 +4067,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            253 => 
+            253 =>
             array (
                 'signa_id' => 254,
                 'signa_kode' => '1DD2IJ',
@@ -4083,7 +4083,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            254 => 
+            254 =>
             array (
                 'signa_id' => 255,
                 'signa_kode' => '1DD2ML',
@@ -4099,7 +4099,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            255 => 
+            255 =>
             array (
                 'signa_id' => 256,
                 'signa_kode' => '1DD2ML AC',
@@ -4115,7 +4115,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            256 => 
+            256 =>
             array (
                 'signa_id' => 257,
                 'signa_kode' => '1DD2ML PC',
@@ -4131,7 +4131,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            257 => 
+            257 =>
             array (
                 'signa_id' => 258,
                 'signa_kode' => '1DD2S',
@@ -4147,7 +4147,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            258 => 
+            258 =>
             array (
                 'signa_id' => 259,
                 'signa_kode' => '1DD2T',
@@ -4163,7 +4163,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            259 => 
+            259 =>
             array (
                 'signa_id' => 260,
                 'signa_kode' => '1DD2T AC',
@@ -4179,7 +4179,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            260 => 
+            260 =>
             array (
                 'signa_id' => 261,
                 'signa_kode' => '1DD2T M',
@@ -4195,7 +4195,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            261 => 
+            261 =>
             array (
                 'signa_id' => 262,
                 'signa_kode' => '1DD2T PC',
@@ -4211,7 +4211,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            262 => 
+            262 =>
             array (
                 'signa_id' => 263,
                 'signa_kode' => '1DD2T S',
@@ -4227,7 +4227,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            263 => 
+            263 =>
             array (
                 'signa_id' => 264,
                 'signa_kode' => '1DD30ML PC',
@@ -4243,7 +4243,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            264 => 
+            264 =>
             array (
                 'signa_id' => 265,
                 'signa_kode' => '1DD3B AC',
@@ -4259,7 +4259,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            265 => 
+            265 =>
             array (
                 'signa_id' => 266,
                 'signa_kode' => '1DD3B PC',
@@ -4275,7 +4275,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            266 => 
+            266 =>
             array (
                 'signa_id' => 267,
                 'signa_kode' => '1DD3C',
@@ -4291,7 +4291,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            267 => 
+            267 =>
             array (
                 'signa_id' => 268,
                 'signa_kode' => '1DD3C AC',
@@ -4307,7 +4307,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            268 => 
+            268 =>
             array (
                 'signa_id' => 269,
                 'signa_kode' => '1DD3C M',
@@ -4323,7 +4323,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            269 => 
+            269 =>
             array (
                 'signa_id' => 270,
                 'signa_kode' => '1DD3C P',
@@ -4339,7 +4339,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            270 => 
+            270 =>
             array (
                 'signa_id' => 271,
                 'signa_kode' => '1DD3C PC',
@@ -4355,7 +4355,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            271 => 
+            271 =>
             array (
                 'signa_id' => 272,
                 'signa_kode' => '1DD3C S',
@@ -4371,7 +4371,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            272 => 
+            272 =>
             array (
                 'signa_id' => 273,
                 'signa_kode' => '1DD3G ADS',
@@ -4387,7 +4387,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            273 => 
+            273 =>
             array (
                 'signa_id' => 274,
                 'signa_kode' => '1DD3G AS',
@@ -4403,7 +4403,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            274 => 
+            274 =>
             array (
                 'signa_id' => 275,
                 'signa_kode' => '1DD3G MI',
@@ -4419,7 +4419,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            275 => 
+            275 =>
             array (
                 'signa_id' => 276,
                 'signa_kode' => '1DD3G ND',
@@ -4435,7 +4435,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            276 => 
+            276 =>
             array (
                 'signa_id' => 277,
                 'signa_kode' => '1DD3G NDS',
@@ -4451,7 +4451,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            277 => 
+            277 =>
             array (
                 'signa_id' => 278,
                 'signa_kode' => '1DD3G NS',
@@ -4467,7 +4467,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            278 => 
+            278 =>
             array (
                 'signa_id' => 279,
                 'signa_kode' => '1DD3G ODS',
@@ -4483,7 +4483,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            279 => 
+            279 =>
             array (
                 'signa_id' => 280,
                 'signa_kode' => '1DD3G OS',
@@ -4499,7 +4499,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            280 => 
+            280 =>
             array (
                 'signa_id' => 281,
                 'signa_kode' => '1DD3IJ',
@@ -4515,7 +4515,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            281 => 
+            281 =>
             array (
                 'signa_id' => 282,
                 'signa_kode' => '1DD3ML AC',
@@ -4531,7 +4531,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            282 => 
+            282 =>
             array (
                 'signa_id' => 283,
                 'signa_kode' => '1DD3ML PC',
@@ -4547,7 +4547,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            283 => 
+            283 =>
             array (
                 'signa_id' => 284,
                 'signa_kode' => '1DD3T',
@@ -4563,7 +4563,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            284 => 
+            284 =>
             array (
                 'signa_id' => 285,
                 'signa_kode' => '1DD3T AC',
@@ -4579,7 +4579,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            285 => 
+            285 =>
             array (
                 'signa_id' => 286,
                 'signa_kode' => '1DD3T M',
@@ -4595,7 +4595,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            286 => 
+            286 =>
             array (
                 'signa_id' => 287,
                 'signa_kode' => '1DD3T P',
@@ -4611,7 +4611,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            287 => 
+            287 =>
             array (
                 'signa_id' => 288,
                 'signa_kode' => '1DD3T PC',
@@ -4627,7 +4627,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            288 => 
+            288 =>
             array (
                 'signa_id' => 289,
                 'signa_kode' => '1DD3T S',
@@ -4643,7 +4643,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            289 => 
+            289 =>
             array (
                 'signa_id' => 290,
                 'signa_kode' => '1DD4B',
@@ -4659,7 +4659,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            290 => 
+            290 =>
             array (
                 'signa_id' => 291,
                 'signa_kode' => '1DD4B AC',
@@ -4675,7 +4675,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            291 => 
+            291 =>
             array (
                 'signa_id' => 292,
                 'signa_kode' => '1DD4B PC',
@@ -4691,7 +4691,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            292 => 
+            292 =>
             array (
                 'signa_id' => 293,
                 'signa_kode' => '1DD4C',
@@ -4707,7 +4707,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            293 => 
+            293 =>
             array (
                 'signa_id' => 294,
                 'signa_kode' => '5DD1C AC',
@@ -4723,7 +4723,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            294 => 
+            294 =>
             array (
                 'signa_id' => 295,
                 'signa_kode' => '5DD1C PC',
@@ -4739,7 +4739,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            295 => 
+            295 =>
             array (
                 'signa_id' => 296,
                 'signa_kode' => '5DD1G AD',
@@ -4755,7 +4755,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            296 => 
+            296 =>
             array (
                 'signa_id' => 297,
                 'signa_kode' => '5DD1G ADS',
@@ -4771,7 +4771,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            297 => 
+            297 =>
             array (
                 'signa_id' => 298,
                 'signa_kode' => '5DD1G AS',
@@ -4787,7 +4787,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            298 => 
+            298 =>
             array (
                 'signa_id' => 299,
                 'signa_kode' => '5DD1G ND',
@@ -4803,7 +4803,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            299 => 
+            299 =>
             array (
                 'signa_id' => 300,
                 'signa_kode' => '5DD1G NDS',
@@ -4819,7 +4819,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            300 => 
+            300 =>
             array (
                 'signa_id' => 301,
                 'signa_kode' => '5DD1G NS',
@@ -4835,7 +4835,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            301 => 
+            301 =>
             array (
                 'signa_id' => 302,
                 'signa_kode' => '5DD1G OD',
@@ -4851,7 +4851,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            302 => 
+            302 =>
             array (
                 'signa_id' => 303,
                 'signa_kode' => '5DD1G ODS',
@@ -4867,7 +4867,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            303 => 
+            303 =>
             array (
                 'signa_id' => 304,
                 'signa_kode' => '5DD1G OS',
@@ -4883,7 +4883,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            304 => 
+            304 =>
             array (
                 'signa_id' => 305,
                 'signa_kode' => '101 S',
@@ -4899,7 +4899,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            305 => 
+            305 =>
             array (
                 'signa_id' => 306,
                 'signa_kode' => '101 T',
@@ -4915,7 +4915,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            306 => 
+            306 =>
             array (
                 'signa_id' => 307,
                 'signa_kode' => '3DDOL Z',
@@ -4931,7 +4931,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            307 => 
+            307 =>
             array (
                 'signa_id' => 308,
                 'signa_kode' => '1DD0.1ML',
@@ -4947,7 +4947,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            308 => 
+            308 =>
             array (
                 'signa_id' => 309,
                 'signa_kode' => '1DD1VT M',
@@ -4963,7 +4963,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            309 => 
+            309 =>
             array (
                 'signa_id' => 310,
                 'signa_kode' => '1DD3G AD',
@@ -4979,7 +4979,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            310 => 
+            310 =>
             array (
                 'signa_id' => 311,
                 'signa_kode' => '1DD5B AC',
@@ -4995,7 +4995,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            311 => 
+            311 =>
             array (
                 'signa_id' => 312,
                 'signa_kode' => '1DD6I',
@@ -5011,7 +5011,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            312 => 
+            312 =>
             array (
                 'signa_id' => 313,
                 'signa_kode' => '1DD6IJ',
@@ -5027,7 +5027,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            313 => 
+            313 =>
             array (
                 'signa_id' => 314,
                 'signa_kode' => '100 C DC SS',
@@ -5043,7 +5043,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            314 => 
+            314 =>
             array (
                 'signa_id' => 315,
                 'signa_kode' => '220 S',
@@ -5059,7 +5059,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            315 => 
+            315 =>
             array (
                 'signa_id' => 316,
                 'signa_kode' => '2DD1ML',
@@ -5075,7 +5075,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            316 => 
+            316 =>
             array (
                 'signa_id' => 317,
                 'signa_kode' => '1DD4C AC',
@@ -5091,7 +5091,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            317 => 
+            317 =>
             array (
                 'signa_id' => 318,
                 'signa_kode' => '1DD4C M',
@@ -5107,7 +5107,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            318 => 
+            318 =>
             array (
                 'signa_id' => 319,
                 'signa_kode' => '1DD4C P',
@@ -5123,7 +5123,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            319 => 
+            319 =>
             array (
                 'signa_id' => 320,
                 'signa_kode' => '1DD4C PC',
@@ -5139,7 +5139,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            320 => 
+            320 =>
             array (
                 'signa_id' => 321,
                 'signa_kode' => '0.500 T AC',
@@ -5155,7 +5155,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            321 => 
+            321 =>
             array (
                 'signa_id' => 322,
                 'signa_kode' => '0.500 T PC',
@@ -5171,7 +5171,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            322 => 
+            322 =>
             array (
                 'signa_id' => 323,
                 'signa_kode' => '0.500.5 C',
@@ -5187,7 +5187,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            323 => 
+            323 =>
             array (
                 'signa_id' => 324,
                 'signa_kode' => '1DD0.1ML AC',
@@ -5203,7 +5203,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            324 => 
+            324 =>
             array (
                 'signa_id' => 325,
                 'signa_kode' => '0.500.5 C AC',
@@ -5219,7 +5219,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            325 => 
+            325 =>
             array (
                 'signa_id' => 326,
                 'signa_kode' => '0.500.5 C PC',
@@ -5235,7 +5235,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            326 => 
+            326 =>
             array (
                 'signa_id' => 327,
                 'signa_kode' => '0.500.5 T',
@@ -5251,7 +5251,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            327 => 
+            327 =>
             array (
                 'signa_id' => 328,
                 'signa_kode' => '0.500.5 T AC',
@@ -5267,7 +5267,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            328 => 
+            328 =>
             array (
                 'signa_id' => 329,
                 'signa_kode' => '0.500.5 T PC',
@@ -5283,7 +5283,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            329 => 
+            329 =>
             array (
                 'signa_id' => 330,
                 'signa_kode' => '100 C PC',
@@ -5299,7 +5299,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            330 => 
+            330 =>
             array (
                 'signa_id' => 331,
                 'signa_kode' => '100 S',
@@ -5315,7 +5315,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            331 => 
+            331 =>
             array (
                 'signa_id' => 332,
                 'signa_kode' => '100 T',
@@ -5331,7 +5331,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            332 => 
+            332 =>
             array (
                 'signa_id' => 333,
                 'signa_kode' => '100 T AC',
@@ -5347,7 +5347,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            333 => 
+            333 =>
             array (
                 'signa_id' => 334,
                 'signa_kode' => '1DD4C S',
@@ -5363,7 +5363,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            334 => 
+            334 =>
             array (
                 'signa_id' => 335,
                 'signa_kode' => '1DD4G AD',
@@ -5379,7 +5379,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            335 => 
+            335 =>
             array (
                 'signa_id' => 336,
                 'signa_kode' => '1DD4G ADS',
@@ -5395,7 +5395,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            336 => 
+            336 =>
             array (
                 'signa_id' => 337,
                 'signa_kode' => '1DD4G AS',
@@ -5411,7 +5411,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            337 => 
+            337 =>
             array (
                 'signa_id' => 338,
                 'signa_kode' => '1DD4G MI',
@@ -5427,7 +5427,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            338 => 
+            338 =>
             array (
                 'signa_id' => 339,
                 'signa_kode' => '1DD15ML',
@@ -5443,7 +5443,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            339 => 
+            339 =>
             array (
                 'signa_id' => 340,
                 'signa_kode' => '1DD4G ND',
@@ -5459,7 +5459,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            340 => 
+            340 =>
             array (
                 'signa_id' => 341,
                 'signa_kode' => '1DD4G NDS',
@@ -5475,7 +5475,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            341 => 
+            341 =>
             array (
                 'signa_id' => 342,
                 'signa_kode' => '1DD4G NS',
@@ -5491,7 +5491,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            342 => 
+            342 =>
             array (
                 'signa_id' => 343,
                 'signa_kode' => '1DD4G OD',
@@ -5507,7 +5507,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            343 => 
+            343 =>
             array (
                 'signa_id' => 344,
                 'signa_kode' => '1DD4G ODS',
@@ -5523,7 +5523,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            344 => 
+            344 =>
             array (
                 'signa_id' => 345,
                 'signa_kode' => '1DD4G OS',
@@ -5539,7 +5539,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            345 => 
+            345 =>
             array (
                 'signa_id' => 346,
                 'signa_kode' => '1DD4I',
@@ -5555,7 +5555,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            346 => 
+            346 =>
             array (
                 'signa_id' => 347,
                 'signa_kode' => '1DD4IJ',
@@ -5571,7 +5571,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            347 => 
+            347 =>
             array (
                 'signa_id' => 348,
                 'signa_kode' => '1DD0.7ML',
@@ -5587,7 +5587,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            348 => 
+            348 =>
             array (
                 'signa_id' => 349,
                 'signa_kode' => '1DD4ML AC',
@@ -5603,7 +5603,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            349 => 
+            349 =>
             array (
                 'signa_id' => 350,
                 'signa_kode' => '1DD30ML',
@@ -5619,7 +5619,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            350 => 
+            350 =>
             array (
                 'signa_id' => 351,
                 'signa_kode' => '1DD4ML PC',
@@ -5635,7 +5635,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            351 => 
+            351 =>
             array (
                 'signa_id' => 352,
                 'signa_kode' => '1DD4T',
@@ -5651,7 +5651,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            352 => 
+            352 =>
             array (
                 'signa_id' => 353,
                 'signa_kode' => '1DD4T AC',
@@ -5667,7 +5667,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            353 => 
+            353 =>
             array (
                 'signa_id' => 354,
                 'signa_kode' => '1DD4T P',
@@ -5683,7 +5683,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            354 => 
+            354 =>
             array (
                 'signa_id' => 355,
                 'signa_kode' => '1DD4T PC',
@@ -5699,7 +5699,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            355 => 
+            355 =>
             array (
                 'signa_id' => 356,
                 'signa_kode' => '1DD4T S',
@@ -5715,7 +5715,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            356 => 
+            356 =>
             array (
                 'signa_id' => 357,
                 'signa_kode' => '1DD5B',
@@ -5731,7 +5731,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            357 => 
+            357 =>
             array (
                 'signa_id' => 358,
                 'signa_kode' => '4DD6C',
@@ -5747,7 +5747,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            358 => 
+            358 =>
             array (
                 'signa_id' => 359,
                 'signa_kode' => '1DD5B PC',
@@ -5763,7 +5763,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            359 => 
+            359 =>
             array (
                 'signa_id' => 360,
                 'signa_kode' => '1DD5C',
@@ -5779,7 +5779,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            360 => 
+            360 =>
             array (
                 'signa_id' => 361,
                 'signa_kode' => '1DD5C AC',
@@ -5795,7 +5795,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            361 => 
+            361 =>
             array (
                 'signa_id' => 362,
                 'signa_kode' => '1DD5C M',
@@ -5811,7 +5811,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            362 => 
+            362 =>
             array (
                 'signa_id' => 363,
                 'signa_kode' => '1DD5C P',
@@ -5827,7 +5827,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            363 => 
+            363 =>
             array (
                 'signa_id' => 364,
                 'signa_kode' => '1DD5C PC',
@@ -5843,7 +5843,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            364 => 
+            364 =>
             array (
                 'signa_id' => 365,
                 'signa_kode' => '1DD5C S',
@@ -5859,7 +5859,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            365 => 
+            365 =>
             array (
                 'signa_id' => 366,
                 'signa_kode' => '1DD5G AD',
@@ -5875,7 +5875,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            366 => 
+            366 =>
             array (
                 'signa_id' => 367,
                 'signa_kode' => '1DD5G ADS',
@@ -5891,7 +5891,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            367 => 
+            367 =>
             array (
                 'signa_id' => 368,
                 'signa_kode' => '1DD5G AS',
@@ -5907,7 +5907,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            368 => 
+            368 =>
             array (
                 'signa_id' => 369,
                 'signa_kode' => '1DD5G MI',
@@ -5923,7 +5923,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            369 => 
+            369 =>
             array (
                 'signa_id' => 370,
                 'signa_kode' => '1DD5G ND',
@@ -5939,7 +5939,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            370 => 
+            370 =>
             array (
                 'signa_id' => 371,
                 'signa_kode' => '1DD5G NDS',
@@ -5955,7 +5955,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            371 => 
+            371 =>
             array (
                 'signa_id' => 372,
                 'signa_kode' => '1DD5G NS',
@@ -5971,7 +5971,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            372 => 
+            372 =>
             array (
                 'signa_id' => 373,
                 'signa_kode' => '1DD5G OD',
@@ -5987,7 +5987,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            373 => 
+            373 =>
             array (
                 'signa_id' => 374,
                 'signa_kode' => '1DD5G ODS',
@@ -6003,7 +6003,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            374 => 
+            374 =>
             array (
                 'signa_id' => 375,
                 'signa_kode' => '1DD5G OS',
@@ -6019,7 +6019,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            375 => 
+            375 =>
             array (
                 'signa_id' => 376,
                 'signa_kode' => '1DD5IJ',
@@ -6035,7 +6035,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            376 => 
+            376 =>
             array (
                 'signa_id' => 377,
                 'signa_kode' => '1DD5ML AC',
@@ -6051,7 +6051,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            377 => 
+            377 =>
             array (
                 'signa_id' => 378,
                 'signa_kode' => '1DD5ML AL',
@@ -6067,7 +6067,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            378 => 
+            378 =>
             array (
                 'signa_id' => 379,
                 'signa_kode' => '1DD5ML PC',
@@ -6083,7 +6083,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            379 => 
+            379 =>
             array (
                 'signa_id' => 380,
                 'signa_kode' => '1DD5ML VI',
@@ -6099,7 +6099,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            380 => 
+            380 =>
             array (
                 'signa_id' => 381,
                 'signa_kode' => '1DD5S',
@@ -6115,7 +6115,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            381 => 
+            381 =>
             array (
                 'signa_id' => 382,
                 'signa_kode' => '1DD5T',
@@ -6131,7 +6131,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            382 => 
+            382 =>
             array (
                 'signa_id' => 383,
                 'signa_kode' => '1DD5T AC',
@@ -6147,7 +6147,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            383 => 
+            383 =>
             array (
                 'signa_id' => 384,
                 'signa_kode' => '2DD0.4ML',
@@ -6163,7 +6163,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            384 => 
+            384 =>
             array (
                 'signa_id' => 385,
                 'signa_kode' => '1DD5T M',
@@ -6179,7 +6179,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            385 => 
+            385 =>
             array (
                 'signa_id' => 386,
                 'signa_kode' => '1DD5T P',
@@ -6195,7 +6195,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            386 => 
+            386 =>
             array (
                 'signa_id' => 387,
                 'signa_kode' => '1DD5T PC',
@@ -6211,7 +6211,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            387 => 
+            387 =>
             array (
                 'signa_id' => 388,
                 'signa_kode' => '1DD5T S',
@@ -6227,7 +6227,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            388 => 
+            388 =>
             array (
                 'signa_id' => 389,
                 'signa_kode' => '1DD6B',
@@ -6243,7 +6243,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            389 => 
+            389 =>
             array (
                 'signa_id' => 390,
                 'signa_kode' => '1DD6B AC',
@@ -6259,7 +6259,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            390 => 
+            390 =>
             array (
                 'signa_id' => 391,
                 'signa_kode' => '1DD6B PC',
@@ -6275,7 +6275,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            391 => 
+            391 =>
             array (
                 'signa_id' => 392,
                 'signa_kode' => '1DD6C',
@@ -6291,7 +6291,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            392 => 
+            392 =>
             array (
                 'signa_id' => 393,
                 'signa_kode' => '2DD5G MI',
@@ -6307,7 +6307,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            393 => 
+            393 =>
             array (
                 'signa_id' => 394,
                 'signa_kode' => '1DD6C AC',
@@ -6323,7 +6323,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            394 => 
+            394 =>
             array (
                 'signa_id' => 395,
                 'signa_kode' => '1DD6C M',
@@ -6339,7 +6339,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            395 => 
+            395 =>
             array (
                 'signa_id' => 396,
                 'signa_kode' => '1DD6C P',
@@ -6355,7 +6355,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            396 => 
+            396 =>
             array (
                 'signa_id' => 397,
                 'signa_kode' => '1DD6C PC',
@@ -6371,7 +6371,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            397 => 
+            397 =>
             array (
                 'signa_id' => 398,
                 'signa_kode' => '1DD6C S',
@@ -6387,7 +6387,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            398 => 
+            398 =>
             array (
                 'signa_id' => 399,
                 'signa_kode' => '1DD6G AD',
@@ -6403,7 +6403,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            399 => 
+            399 =>
             array (
                 'signa_id' => 400,
                 'signa_kode' => '1DD6G ADS',
@@ -6419,7 +6419,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            400 => 
+            400 =>
             array (
                 'signa_id' => 401,
                 'signa_kode' => '1DD6G AS',
@@ -6435,7 +6435,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            401 => 
+            401 =>
             array (
                 'signa_id' => 402,
                 'signa_kode' => '1DD6G MI',
@@ -6451,7 +6451,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            402 => 
+            402 =>
             array (
                 'signa_id' => 403,
                 'signa_kode' => '1DD6G ND',
@@ -6467,7 +6467,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            403 => 
+            403 =>
             array (
                 'signa_id' => 404,
                 'signa_kode' => '1DD6G NDS',
@@ -6483,7 +6483,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            404 => 
+            404 =>
             array (
                 'signa_id' => 405,
                 'signa_kode' => '1DD6G OD',
@@ -6499,7 +6499,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            405 => 
+            405 =>
             array (
                 'signa_id' => 406,
                 'signa_kode' => '1DD6G ODS',
@@ -6515,7 +6515,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            406 => 
+            406 =>
             array (
                 'signa_id' => 407,
                 'signa_kode' => '1DD6G OS',
@@ -6531,7 +6531,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            407 => 
+            407 =>
             array (
                 'signa_id' => 408,
                 'signa_kode' => '1DD6ML AC',
@@ -6547,7 +6547,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            408 => 
+            408 =>
             array (
                 'signa_id' => 409,
                 'signa_kode' => '1DD6ML PC',
@@ -6563,7 +6563,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            409 => 
+            409 =>
             array (
                 'signa_id' => 410,
                 'signa_kode' => '1DD6S',
@@ -6579,7 +6579,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            410 => 
+            410 =>
             array (
                 'signa_id' => 411,
                 'signa_kode' => '1DD6T',
@@ -6595,7 +6595,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            411 => 
+            411 =>
             array (
                 'signa_id' => 412,
                 'signa_kode' => '1DD6T M',
@@ -6611,7 +6611,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            412 => 
+            412 =>
             array (
                 'signa_id' => 413,
                 'signa_kode' => '1DD6T P',
@@ -6627,7 +6627,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            413 => 
+            413 =>
             array (
                 'signa_id' => 414,
                 'signa_kode' => '1DD6T S',
@@ -6643,7 +6643,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            414 => 
+            414 =>
             array (
                 'signa_id' => 415,
                 'signa_kode' => '1DD7.5ML',
@@ -6659,7 +6659,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            415 => 
+            415 =>
             array (
                 'signa_id' => 416,
                 'signa_kode' => '1DD7.5ML AC',
@@ -6675,7 +6675,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            416 => 
+            416 =>
             array (
                 'signa_id' => 417,
                 'signa_kode' => '1DD7.5ML PC',
@@ -6691,7 +6691,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            417 => 
+            417 =>
             array (
                 'signa_id' => 418,
                 'signa_kode' => '1DD7ML AC',
@@ -6707,7 +6707,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            418 => 
+            418 =>
             array (
                 'signa_id' => 419,
                 'signa_kode' => '1DD7ML PC',
@@ -6723,7 +6723,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            419 => 
+            419 =>
             array (
                 'signa_id' => 420,
                 'signa_kode' => '1DD8G MI',
@@ -6739,7 +6739,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            420 => 
+            420 =>
             array (
                 'signa_id' => 421,
                 'signa_kode' => '1DD8ML',
@@ -6755,7 +6755,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            421 => 
+            421 =>
             array (
                 'signa_id' => 422,
                 'signa_kode' => '1DD8ML AC',
@@ -6771,7 +6771,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            422 => 
+            422 =>
             array (
                 'signa_id' => 423,
                 'signa_kode' => '1D8ML PC',
@@ -6787,7 +6787,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            423 => 
+            423 =>
             array (
                 'signa_id' => 424,
                 'signa_kode' => '1DDOL C',
@@ -6803,7 +6803,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            424 => 
+            424 =>
             array (
                 'signa_id' => 425,
                 'signa_kode' => '1DDOL Z',
@@ -6819,7 +6819,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            425 => 
+            425 =>
             array (
                 'signa_id' => 426,
                 'signa_kode' => '1DDOL Z OD',
@@ -6835,7 +6835,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            426 => 
+            426 =>
             array (
                 'signa_id' => 427,
                 'signa_kode' => '1DDOL Z ODS',
@@ -6851,7 +6851,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            427 => 
+            427 =>
             array (
                 'signa_id' => 428,
                 'signa_kode' => '1DDOL Z OS',
@@ -6867,7 +6867,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            428 => 
+            428 =>
             array (
                 'signa_id' => 429,
                 'signa_kode' => '1H1G OD',
@@ -6883,7 +6883,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            429 => 
+            429 =>
             array (
                 'signa_id' => 430,
                 'signa_kode' => '1H1G ODS',
@@ -6899,7 +6899,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            430 => 
+            430 =>
             array (
                 'signa_id' => 431,
                 'signa_kode' => '1H1G OS',
@@ -6915,7 +6915,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            431 => 
+            431 =>
             array (
                 'signa_id' => 432,
                 'signa_kode' => '3DD6ML',
@@ -6931,7 +6931,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            432 => 
+            432 =>
             array (
                 'signa_id' => 433,
                 'signa_kode' => '1SUP DE ',
@@ -6947,7 +6947,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            433 => 
+            433 =>
             array (
                 'signa_id' => 434,
                 'signa_kode' => '1W1T',
@@ -6963,7 +6963,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            434 => 
+            434 =>
             array (
                 'signa_id' => 435,
                 'signa_kode' => '200 C',
@@ -6979,7 +6979,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            435 => 
+            435 =>
             array (
                 'signa_id' => 436,
                 'signa_kode' => '200 C AC',
@@ -6995,7 +6995,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            436 => 
+            436 =>
             array (
                 'signa_id' => 437,
                 'signa_kode' => '200 C PC',
@@ -7011,7 +7011,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            437 => 
+            437 =>
             array (
                 'signa_id' => 438,
                 'signa_kode' => '200 S',
@@ -7027,7 +7027,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            438 => 
+            438 =>
             array (
                 'signa_id' => 439,
                 'signa_kode' => '200 T',
@@ -7043,7 +7043,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            439 => 
+            439 =>
             array (
                 'signa_id' => 440,
                 'signa_kode' => '200 T AC',
@@ -7059,7 +7059,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            440 => 
+            440 =>
             array (
                 'signa_id' => 441,
                 'signa_kode' => '2DDOL C',
@@ -7075,7 +7075,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            441 => 
+            441 =>
             array (
                 'signa_id' => 442,
                 'signa_kode' => '200 T PC',
@@ -7091,7 +7091,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            442 => 
+            442 =>
             array (
                 'signa_id' => 443,
                 'signa_kode' => '202 C',
@@ -7107,7 +7107,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            443 => 
+            443 =>
             array (
                 'signa_id' => 444,
                 'signa_kode' => '1DD3I',
@@ -7123,7 +7123,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            444 => 
+            444 =>
             array (
                 'signa_id' => 445,
                 'signa_kode' => '202 C AC',
@@ -7139,7 +7139,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            445 => 
+            445 =>
             array (
                 'signa_id' => 446,
                 'signa_kode' => '202 C PC',
@@ -7155,7 +7155,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            446 => 
+            446 =>
             array (
                 'signa_id' => 447,
                 'signa_kode' => '202 S',
@@ -7171,7 +7171,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            447 => 
+            447 =>
             array (
                 'signa_id' => 448,
                 'signa_kode' => '202 T',
@@ -7187,7 +7187,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            448 => 
+            448 =>
             array (
                 'signa_id' => 449,
                 'signa_kode' => '202 T AC',
@@ -7203,7 +7203,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            449 => 
+            449 =>
             array (
                 'signa_id' => 450,
                 'signa_kode' => '202 T PC',
@@ -7219,7 +7219,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            450 => 
+            450 =>
             array (
                 'signa_id' => 451,
                 'signa_kode' => '220 C',
@@ -7235,7 +7235,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            451 => 
+            451 =>
             array (
                 'signa_id' => 452,
                 'signa_kode' => '1DD7ML',
@@ -7251,7 +7251,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            452 => 
+            452 =>
             array (
                 'signa_id' => 453,
                 'signa_kode' => '220 C PC',
@@ -7267,7 +7267,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            453 => 
+            453 =>
             array (
                 'signa_id' => 454,
                 'signa_kode' => '222 C AC',
@@ -7283,7 +7283,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            454 => 
+            454 =>
             array (
                 'signa_id' => 455,
                 'signa_kode' => '222 C PC',
@@ -7299,7 +7299,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            455 => 
+            455 =>
             array (
                 'signa_id' => 456,
                 'signa_kode' => '222 S',
@@ -7315,7 +7315,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            456 => 
+            456 =>
             array (
                 'signa_id' => 457,
                 'signa_kode' => '222 T',
@@ -7331,7 +7331,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            457 => 
+            457 =>
             array (
                 'signa_id' => 458,
                 'signa_kode' => '222 T AC',
@@ -7347,7 +7347,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            458 => 
+            458 =>
             array (
                 'signa_id' => 459,
                 'signa_kode' => '222 T PC',
@@ -7363,7 +7363,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            459 => 
+            459 =>
             array (
                 'signa_id' => 460,
                 'signa_kode' => '2DD0.1ML',
@@ -7379,7 +7379,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            460 => 
+            460 =>
             array (
                 'signa_id' => 461,
                 'signa_kode' => '2DD0.1ML AC',
@@ -7395,7 +7395,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            461 => 
+            461 =>
             array (
                 'signa_id' => 462,
                 'signa_kode' => '2DD0.1ML PC',
@@ -7411,7 +7411,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            462 => 
+            462 =>
             array (
                 'signa_id' => 463,
                 'signa_kode' => '2DD0.25ML',
@@ -7427,7 +7427,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            463 => 
+            463 =>
             array (
                 'signa_id' => 464,
                 'signa_kode' => '4DD0.4ML',
@@ -7443,7 +7443,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            464 => 
+            464 =>
             array (
                 'signa_id' => 465,
                 'signa_kode' => '2DD0.25ML PC',
@@ -7459,7 +7459,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            465 => 
+            465 =>
             array (
                 'signa_id' => 466,
                 'signa_kode' => '2DD0.25T',
@@ -7475,7 +7475,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            466 => 
+            466 =>
             array (
                 'signa_id' => 467,
                 'signa_kode' => '2DD0.25T AC',
@@ -7491,7 +7491,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            467 => 
+            467 =>
             array (
                 'signa_id' => 468,
                 'signa_kode' => '2DD0.25T PC',
@@ -7507,7 +7507,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            468 => 
+            468 =>
             array (
                 'signa_id' => 469,
                 'signa_kode' => '2DD0.2ML AC',
@@ -7523,7 +7523,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            469 => 
+            469 =>
             array (
                 'signa_id' => 470,
                 'signa_kode' => '2DD0.2ML BA',
@@ -7539,7 +7539,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            470 => 
+            470 =>
             array (
                 'signa_id' => 471,
                 'signa_kode' => '2DD0.2ML PC',
@@ -7555,7 +7555,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            471 => 
+            471 =>
             array (
                 'signa_id' => 472,
                 'signa_kode' => '2DD0.3ML',
@@ -7571,7 +7571,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            472 => 
+            472 =>
             array (
                 'signa_id' => 473,
                 'signa_kode' => '2DD0.3ML AC',
@@ -7587,7 +7587,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            473 => 
+            473 =>
             array (
                 'signa_id' => 474,
                 'signa_kode' => '2DD0.3ML PC',
@@ -7603,7 +7603,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            474 => 
+            474 =>
             array (
                 'signa_id' => 475,
                 'signa_kode' => '2DD0.4ML AC',
@@ -7619,7 +7619,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            475 => 
+            475 =>
             array (
                 'signa_id' => 476,
                 'signa_kode' => '3DD6IJ',
@@ -7635,7 +7635,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            476 => 
+            476 =>
             array (
                 'signa_id' => 477,
                 'signa_kode' => '2DD0.4ML PC',
@@ -7651,7 +7651,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            477 => 
+            477 =>
             array (
                 'signa_id' => 478,
                 'signa_kode' => '2DD0.5ML',
@@ -7667,7 +7667,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            478 => 
+            478 =>
             array (
                 'signa_id' => 479,
                 'signa_kode' => '2DD0.5ML AC',
@@ -7683,7 +7683,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            479 => 
+            479 =>
             array (
                 'signa_id' => 480,
                 'signa_kode' => '2DD0.5ML PC',
@@ -7699,7 +7699,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            480 => 
+            480 =>
             array (
                 'signa_id' => 481,
                 'signa_kode' => '001 C SS',
@@ -7715,7 +7715,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            481 => 
+            481 =>
             array (
                 'signa_id' => 482,
                 'signa_kode' => '1.501.5 T',
@@ -7731,7 +7731,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            482 => 
+            482 =>
             array (
                 'signa_id' => 483,
                 'signa_kode' => '1.501.5 T AC',
@@ -7747,7 +7747,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            483 => 
+            483 =>
             array (
                 'signa_id' => 484,
                 'signa_kode' => '1.501.5 T PC',
@@ -7763,7 +7763,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            484 => 
+            484 =>
             array (
                 'signa_id' => 485,
                 'signa_kode' => '6DD3T AC',
@@ -7779,7 +7779,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            485 => 
+            485 =>
             array (
                 'signa_id' => 486,
                 'signa_kode' => '2DD0.5T',
@@ -7795,7 +7795,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            486 => 
+            486 =>
             array (
                 'signa_id' => 487,
                 'signa_kode' => '2DD0.5T AC',
@@ -7811,7 +7811,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            487 => 
+            487 =>
             array (
                 'signa_id' => 488,
                 'signa_kode' => '2DD0.5T CE',
@@ -7827,7 +7827,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            488 => 
+            488 =>
             array (
                 'signa_id' => 489,
                 'signa_kode' => '2DD0.5T MU',
@@ -7843,7 +7843,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            489 => 
+            489 =>
             array (
                 'signa_id' => 490,
                 'signa_kode' => '2DD0.5T PC',
@@ -7859,7 +7859,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            490 => 
+            490 =>
             array (
                 'signa_id' => 491,
                 'signa_kode' => '2DD0.6ML AC',
@@ -7875,7 +7875,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            491 => 
+            491 =>
             array (
                 'signa_id' => 492,
                 'signa_kode' => '2DD0.6ML DE',
@@ -7891,7 +7891,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            492 => 
+            492 =>
             array (
                 'signa_id' => 493,
                 'signa_kode' => '2DD0.6ML PC',
@@ -7907,7 +7907,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            493 => 
+            493 =>
             array (
                 'signa_id' => 494,
                 'signa_kode' => '2DD0.75T',
@@ -7923,7 +7923,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            494 => 
+            494 =>
             array (
                 'signa_id' => 495,
                 'signa_kode' => '4DD5C',
@@ -7939,7 +7939,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            495 => 
+            495 =>
             array (
                 'signa_id' => 496,
                 'signa_kode' => '2DD0.75T AC',
@@ -7955,7 +7955,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            496 => 
+            496 =>
             array (
                 'signa_id' => 497,
                 'signa_kode' => '2DD0.75T PC',
@@ -7971,7 +7971,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            497 => 
+            497 =>
             array (
                 'signa_id' => 498,
                 'signa_kode' => '2DD0.7ML',
@@ -7987,7 +7987,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            498 => 
+            498 =>
             array (
                 'signa_id' => 499,
                 'signa_kode' => '1DD4S',
@@ -8003,7 +8003,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            499 => 
+            499 =>
             array (
                 'signa_id' => 500,
                 'signa_kode' => '2DD0.7ML PC',
@@ -8020,8 +8020,8 @@ class SignaMTableSeeder extends Seeder
                 'deleted_by' => NULL,
             ),
         ));
-        \DB::table('signa_m')->insert(array (
-            0 => 
+        \DB::table('signas')->insert(array (
+            0 =>
             array (
                 'signa_id' => 501,
                 'signa_kode' => '2DD0.8ML AC',
@@ -8037,7 +8037,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            1 => 
+            1 =>
             array (
                 'signa_id' => 502,
                 'signa_kode' => '2DD0.8ML PC',
@@ -8053,7 +8053,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            2 => 
+            2 =>
             array (
                 'signa_id' => 503,
                 'signa_kode' => '2DD1.25ML',
@@ -8069,7 +8069,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            3 => 
+            3 =>
             array (
                 'signa_id' => 504,
                 'signa_kode' => '2DD1.25ML AC',
@@ -8085,7 +8085,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            4 => 
+            4 =>
             array (
                 'signa_id' => 505,
                 'signa_kode' => '46DD1.25ML',
@@ -8101,7 +8101,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            5 => 
+            5 =>
             array (
                 'signa_id' => 506,
                 'signa_kode' => '2DD1.25ML PC',
@@ -8117,7 +8117,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            6 => 
+            6 =>
             array (
                 'signa_id' => 507,
                 'signa_kode' => '2DD1.5ML',
@@ -8133,7 +8133,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            7 => 
+            7 =>
             array (
                 'signa_id' => 508,
                 'signa_kode' => '2DD1.5ML AC',
@@ -8149,7 +8149,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            8 => 
+            8 =>
             array (
                 'signa_id' => 509,
                 'signa_kode' => '2DD1.5ML PC',
@@ -8165,7 +8165,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            9 => 
+            9 =>
             array (
                 'signa_id' => 510,
                 'signa_kode' => '2DD10G MI',
@@ -8181,7 +8181,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            10 => 
+            10 =>
             array (
                 'signa_id' => 511,
                 'signa_kode' => '2DD10ML AC',
@@ -8197,7 +8197,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            11 => 
+            11 =>
             array (
                 'signa_id' => 512,
                 'signa_kode' => '2DD10ML PC',
@@ -8213,7 +8213,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            12 => 
+            12 =>
             array (
                 'signa_id' => 513,
                 'signa_kode' => '2DD12ML',
@@ -8229,7 +8229,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            13 => 
+            13 =>
             array (
                 'signa_id' => 514,
                 'signa_kode' => '2DD12ML AC',
@@ -8245,7 +8245,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            14 => 
+            14 =>
             array (
                 'signa_id' => 515,
                 'signa_kode' => '2DD12ML PC',
@@ -8261,7 +8261,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            15 => 
+            15 =>
             array (
                 'signa_id' => 516,
                 'signa_kode' => '2DD15ML',
@@ -8277,7 +8277,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            16 => 
+            16 =>
             array (
                 'signa_id' => 517,
                 'signa_kode' => '2DD15ML AC',
@@ -8293,7 +8293,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            17 => 
+            17 =>
             array (
                 'signa_id' => 518,
                 'signa_kode' => '2DD15ML PC',
@@ -8309,7 +8309,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            18 => 
+            18 =>
             array (
                 'signa_id' => 519,
                 'signa_kode' => '2DD1B',
@@ -8325,7 +8325,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            19 => 
+            19 =>
             array (
                 'signa_id' => 520,
                 'signa_kode' => '2DD1B AC',
@@ -8341,7 +8341,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            20 => 
+            20 =>
             array (
                 'signa_id' => 521,
                 'signa_kode' => '2DD1B NA',
@@ -8357,7 +8357,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            21 => 
+            21 =>
             array (
                 'signa_id' => 522,
                 'signa_kode' => '2DD1B PC',
@@ -8373,7 +8373,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            22 => 
+            22 =>
             array (
                 'signa_id' => 523,
                 'signa_kode' => '2DD1C',
@@ -8389,7 +8389,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            23 => 
+            23 =>
             array (
                 'signa_id' => 524,
                 'signa_kode' => '2DD1C AB',
@@ -8405,7 +8405,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            24 => 
+            24 =>
             array (
                 'signa_id' => 525,
                 'signa_kode' => '2DD1C AC',
@@ -8421,7 +8421,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            25 => 
+            25 =>
             array (
                 'signa_id' => 526,
                 'signa_kode' => '2DD1C PC',
@@ -8437,7 +8437,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            26 => 
+            26 =>
             array (
                 'signa_id' => 527,
                 'signa_kode' => '2DD1G AD',
@@ -8453,7 +8453,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            27 => 
+            27 =>
             array (
                 'signa_id' => 528,
                 'signa_kode' => '2DD1G ADS',
@@ -8469,7 +8469,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            28 => 
+            28 =>
             array (
                 'signa_id' => 529,
                 'signa_kode' => '2DD1G AS',
@@ -8485,7 +8485,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            29 => 
+            29 =>
             array (
                 'signa_id' => 530,
                 'signa_kode' => '2DD1G MI',
@@ -8501,7 +8501,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            30 => 
+            30 =>
             array (
                 'signa_id' => 531,
                 'signa_kode' => '2DD1G ND',
@@ -8517,7 +8517,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            31 => 
+            31 =>
             array (
                 'signa_id' => 532,
                 'signa_kode' => '2DD1G NDS',
@@ -8533,7 +8533,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            32 => 
+            32 =>
             array (
                 'signa_id' => 533,
                 'signa_kode' => '2DD1G NS',
@@ -8549,7 +8549,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            33 => 
+            33 =>
             array (
                 'signa_id' => 534,
                 'signa_kode' => '2DD1G OD',
@@ -8565,7 +8565,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            34 => 
+            34 =>
             array (
                 'signa_id' => 535,
                 'signa_kode' => '2DD1G ODS',
@@ -8581,7 +8581,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            35 => 
+            35 =>
             array (
                 'signa_id' => 536,
                 'signa_kode' => '2DD1G OS',
@@ -8597,7 +8597,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            36 => 
+            36 =>
             array (
                 'signa_id' => 537,
                 'signa_kode' => '1DD6T AC',
@@ -8613,7 +8613,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            37 => 
+            37 =>
             array (
                 'signa_id' => 538,
                 'signa_kode' => '2DD2B PC',
@@ -8629,7 +8629,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            38 => 
+            38 =>
             array (
                 'signa_id' => 539,
                 'signa_kode' => '2DD2C AC',
@@ -8645,7 +8645,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            39 => 
+            39 =>
             array (
                 'signa_id' => 540,
                 'signa_kode' => '2DD2G ND',
@@ -8661,7 +8661,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            40 => 
+            40 =>
             array (
                 'signa_id' => 541,
                 'signa_kode' => '2DD2G NDS',
@@ -8677,7 +8677,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            41 => 
+            41 =>
             array (
                 'signa_id' => 542,
                 'signa_kode' => '2DD2G NS',
@@ -8693,7 +8693,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            42 => 
+            42 =>
             array (
                 'signa_id' => 543,
                 'signa_kode' => '2DD2G OD',
@@ -8709,7 +8709,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            43 => 
+            43 =>
             array (
                 'signa_id' => 544,
                 'signa_kode' => '2DD2G ODS',
@@ -8725,7 +8725,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            44 => 
+            44 =>
             array (
                 'signa_id' => 545,
                 'signa_kode' => '2DD2G OS',
@@ -8741,7 +8741,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            45 => 
+            45 =>
             array (
                 'signa_id' => 546,
                 'signa_kode' => '2DD2I',
@@ -8757,7 +8757,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            46 => 
+            46 =>
             array (
                 'signa_id' => 547,
                 'signa_kode' => '3DD1T MA',
@@ -8773,7 +8773,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            47 => 
+            47 =>
             array (
                 'signa_id' => 548,
                 'signa_kode' => '2DD2IJ',
@@ -8789,7 +8789,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            48 => 
+            48 =>
             array (
                 'signa_id' => 549,
                 'signa_kode' => '2DD2ML',
@@ -8805,7 +8805,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            49 => 
+            49 =>
             array (
                 'signa_id' => 550,
                 'signa_kode' => '2DD2ML AC',
@@ -8821,7 +8821,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            50 => 
+            50 =>
             array (
                 'signa_id' => 551,
                 'signa_kode' => '46DD0.8ML',
@@ -8837,7 +8837,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            51 => 
+            51 =>
             array (
                 'signa_id' => 552,
                 'signa_kode' => '2DD2ML PC',
@@ -8853,7 +8853,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            52 => 
+            52 =>
             array (
                 'signa_id' => 553,
                 'signa_kode' => '2DD2S',
@@ -8869,7 +8869,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            53 => 
+            53 =>
             array (
                 'signa_id' => 554,
                 'signa_kode' => '2DD2T AC',
@@ -8885,7 +8885,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            54 => 
+            54 =>
             array (
                 'signa_id' => 555,
                 'signa_kode' => '2DD2T DC',
@@ -8901,7 +8901,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            55 => 
+            55 =>
             array (
                 'signa_id' => 556,
                 'signa_kode' => '2DD2T PC',
@@ -8917,7 +8917,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            56 => 
+            56 =>
             array (
                 'signa_id' => 557,
                 'signa_kode' => '2DD30ML',
@@ -8933,7 +8933,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            57 => 
+            57 =>
             array (
                 'signa_id' => 558,
                 'signa_kode' => '2DD30ML AC',
@@ -8949,7 +8949,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            58 => 
+            58 =>
             array (
                 'signa_id' => 559,
                 'signa_kode' => '2DD30ML PC',
@@ -8965,7 +8965,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            59 => 
+            59 =>
             array (
                 'signa_id' => 560,
                 'signa_kode' => '2DD3B',
@@ -8981,7 +8981,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            60 => 
+            60 =>
             array (
                 'signa_id' => 561,
                 'signa_kode' => '2DD3B AC',
@@ -8997,7 +8997,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            61 => 
+            61 =>
             array (
                 'signa_id' => 562,
                 'signa_kode' => '2DD3B PC',
@@ -9013,7 +9013,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            62 => 
+            62 =>
             array (
                 'signa_id' => 563,
                 'signa_kode' => '5DD2C AC',
@@ -9029,7 +9029,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            63 => 
+            63 =>
             array (
                 'signa_id' => 564,
                 'signa_kode' => '5DD2C PC',
@@ -9045,7 +9045,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            64 => 
+            64 =>
             array (
                 'signa_id' => 565,
                 'signa_kode' => '5DD2G AD',
@@ -9061,7 +9061,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            65 => 
+            65 =>
             array (
                 'signa_id' => 566,
                 'signa_kode' => '5DD2G ADS',
@@ -9077,7 +9077,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            66 => 
+            66 =>
             array (
                 'signa_id' => 567,
                 'signa_kode' => '5DD2G AS',
@@ -9093,7 +9093,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            67 => 
+            67 =>
             array (
                 'signa_id' => 568,
                 'signa_kode' => '5DD2ML',
@@ -9109,7 +9109,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            68 => 
+            68 =>
             array (
                 'signa_id' => 569,
                 'signa_kode' => '2DD3C',
@@ -9125,7 +9125,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            69 => 
+            69 =>
             array (
                 'signa_id' => 570,
                 'signa_kode' => '2DD3C AC',
@@ -9141,7 +9141,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            70 => 
+            70 =>
             array (
                 'signa_id' => 571,
                 'signa_kode' => '2DD3C PC',
@@ -9157,7 +9157,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            71 => 
+            71 =>
             array (
                 'signa_id' => 572,
                 'signa_kode' => '2DD3G AD',
@@ -9173,7 +9173,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            72 => 
+            72 =>
             array (
                 'signa_id' => 573,
                 'signa_kode' => '2DD3G ADS',
@@ -9189,7 +9189,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            73 => 
+            73 =>
             array (
                 'signa_id' => 574,
                 'signa_kode' => '2DD3G AS',
@@ -9205,7 +9205,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            74 => 
+            74 =>
             array (
                 'signa_id' => 575,
                 'signa_kode' => '2DD3G ND',
@@ -9221,7 +9221,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            75 => 
+            75 =>
             array (
                 'signa_id' => 576,
                 'signa_kode' => '3DD1.25ML AC',
@@ -9237,7 +9237,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            76 => 
+            76 =>
             array (
                 'signa_id' => 577,
                 'signa_kode' => '2DD3G NDS',
@@ -9253,7 +9253,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            77 => 
+            77 =>
             array (
                 'signa_id' => 578,
                 'signa_kode' => '2DD3G NS',
@@ -9269,7 +9269,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            78 => 
+            78 =>
             array (
                 'signa_id' => 579,
                 'signa_kode' => '2DD3G OD',
@@ -9285,7 +9285,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            79 => 
+            79 =>
             array (
                 'signa_id' => 580,
                 'signa_kode' => '2DD3G ODS',
@@ -9301,7 +9301,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            80 => 
+            80 =>
             array (
                 'signa_id' => 581,
                 'signa_kode' => '2DD3G OS',
@@ -9317,7 +9317,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            81 => 
+            81 =>
             array (
                 'signa_id' => 582,
                 'signa_kode' => '2DD3I',
@@ -9333,7 +9333,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            82 => 
+            82 =>
             array (
                 'signa_id' => 583,
                 'signa_kode' => '2DD3IJ',
@@ -9349,7 +9349,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            83 => 
+            83 =>
             array (
                 'signa_id' => 584,
                 'signa_kode' => '2DD3ML',
@@ -9365,7 +9365,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            84 => 
+            84 =>
             array (
                 'signa_id' => 585,
                 'signa_kode' => '2DD3ML AC',
@@ -9381,7 +9381,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            85 => 
+            85 =>
             array (
                 'signa_id' => 586,
                 'signa_kode' => '2DD3ML PC',
@@ -9397,7 +9397,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            86 => 
+            86 =>
             array (
                 'signa_id' => 587,
                 'signa_kode' => '2DD3S',
@@ -9413,7 +9413,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            87 => 
+            87 =>
             array (
                 'signa_id' => 588,
                 'signa_kode' => '2DD3T',
@@ -9429,7 +9429,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            88 => 
+            88 =>
             array (
                 'signa_id' => 589,
                 'signa_kode' => '2DD3T AC',
@@ -9445,7 +9445,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            89 => 
+            89 =>
             array (
                 'signa_id' => 590,
                 'signa_kode' => '2DD3T PC',
@@ -9461,7 +9461,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            90 => 
+            90 =>
             array (
                 'signa_id' => 591,
                 'signa_kode' => '2DD4B',
@@ -9477,7 +9477,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            91 => 
+            91 =>
             array (
                 'signa_id' => 592,
                 'signa_kode' => '2DD4B AC',
@@ -9493,7 +9493,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            92 => 
+            92 =>
             array (
                 'signa_id' => 593,
                 'signa_kode' => '2DD4B PC',
@@ -9509,7 +9509,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            93 => 
+            93 =>
             array (
                 'signa_id' => 594,
                 'signa_kode' => '2DD4C AC',
@@ -9525,7 +9525,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            94 => 
+            94 =>
             array (
                 'signa_id' => 595,
                 'signa_kode' => '2DD4C PC',
@@ -9541,7 +9541,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            95 => 
+            95 =>
             array (
                 'signa_id' => 596,
                 'signa_kode' => '2DD4G AD',
@@ -9557,7 +9557,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            96 => 
+            96 =>
             array (
                 'signa_id' => 597,
                 'signa_kode' => '2DD4G ADS',
@@ -9573,7 +9573,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            97 => 
+            97 =>
             array (
                 'signa_id' => 598,
                 'signa_kode' => '2DD4G AS',
@@ -9589,7 +9589,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            98 => 
+            98 =>
             array (
                 'signa_id' => 599,
                 'signa_kode' => '1DD3ML',
@@ -9605,7 +9605,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            99 => 
+            99 =>
             array (
                 'signa_id' => 600,
                 'signa_kode' => '3DD3G NS',
@@ -9621,7 +9621,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            100 => 
+            100 =>
             array (
                 'signa_id' => 601,
                 'signa_kode' => '100 T PC',
@@ -9637,7 +9637,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            101 => 
+            101 =>
             array (
                 'signa_id' => 602,
                 'signa_kode' => '2DD4G ND',
@@ -9653,7 +9653,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            102 => 
+            102 =>
             array (
                 'signa_id' => 603,
                 'signa_kode' => '2DD4G NDS',
@@ -9669,7 +9669,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            103 => 
+            103 =>
             array (
                 'signa_id' => 604,
                 'signa_kode' => '2DD4G NS',
@@ -9685,7 +9685,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            104 => 
+            104 =>
             array (
                 'signa_id' => 605,
                 'signa_kode' => '2DD4G OD',
@@ -9701,7 +9701,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            105 => 
+            105 =>
             array (
                 'signa_id' => 606,
                 'signa_kode' => '2DD4G ODS',
@@ -9717,7 +9717,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            106 => 
+            106 =>
             array (
                 'signa_id' => 607,
                 'signa_kode' => '2DD4G OS',
@@ -9733,7 +9733,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            107 => 
+            107 =>
             array (
                 'signa_id' => 608,
                 'signa_kode' => '2DD4I',
@@ -9749,7 +9749,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            108 => 
+            108 =>
             array (
                 'signa_id' => 609,
                 'signa_kode' => '2DD4IJ',
@@ -9765,7 +9765,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            109 => 
+            109 =>
             array (
                 'signa_id' => 610,
                 'signa_kode' => '2DD4ML',
@@ -9781,7 +9781,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            110 => 
+            110 =>
             array (
                 'signa_id' => 611,
                 'signa_kode' => '2DD4ML AC',
@@ -9797,7 +9797,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            111 => 
+            111 =>
             array (
                 'signa_id' => 612,
                 'signa_kode' => '2DD4ML PC',
@@ -9813,7 +9813,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            112 => 
+            112 =>
             array (
                 'signa_id' => 613,
                 'signa_kode' => '2DD4S',
@@ -9829,7 +9829,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            113 => 
+            113 =>
             array (
                 'signa_id' => 614,
                 'signa_kode' => '2DD4T',
@@ -9845,7 +9845,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            114 => 
+            114 =>
             array (
                 'signa_id' => 615,
                 'signa_kode' => '2DD4T AC',
@@ -9861,7 +9861,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            115 => 
+            115 =>
             array (
                 'signa_id' => 616,
                 'signa_kode' => '2DD4T PC',
@@ -9877,7 +9877,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            116 => 
+            116 =>
             array (
                 'signa_id' => 617,
                 'signa_kode' => '2DD5B',
@@ -9893,7 +9893,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            117 => 
+            117 =>
             array (
                 'signa_id' => 618,
                 'signa_kode' => '2DD5B AC',
@@ -9909,7 +9909,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            118 => 
+            118 =>
             array (
                 'signa_id' => 619,
                 'signa_kode' => '2DD5B PC',
@@ -9925,7 +9925,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            119 => 
+            119 =>
             array (
                 'signa_id' => 620,
                 'signa_kode' => '2DD5C PC',
@@ -9941,7 +9941,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            120 => 
+            120 =>
             array (
                 'signa_id' => 621,
                 'signa_kode' => '2DD5G AD',
@@ -9957,7 +9957,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            121 => 
+            121 =>
             array (
                 'signa_id' => 622,
                 'signa_kode' => '2DD5G ADS',
@@ -9973,7 +9973,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            122 => 
+            122 =>
             array (
                 'signa_id' => 623,
                 'signa_kode' => '2DD5G AS',
@@ -9989,7 +9989,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            123 => 
+            123 =>
             array (
                 'signa_id' => 624,
                 'signa_kode' => '2DD5G ND',
@@ -10005,7 +10005,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            124 => 
+            124 =>
             array (
                 'signa_id' => 625,
                 'signa_kode' => '2DD5G NDS',
@@ -10021,7 +10021,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            125 => 
+            125 =>
             array (
                 'signa_id' => 626,
                 'signa_kode' => '4DD1.5ML',
@@ -10037,7 +10037,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            126 => 
+            126 =>
             array (
                 'signa_id' => 627,
                 'signa_kode' => '2DD5G NS',
@@ -10053,7 +10053,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            127 => 
+            127 =>
             array (
                 'signa_id' => 628,
                 'signa_kode' => '2DD5G OD',
@@ -10069,7 +10069,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            128 => 
+            128 =>
             array (
                 'signa_id' => 629,
                 'signa_kode' => '3DD1.25ML PC',
@@ -10085,7 +10085,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            129 => 
+            129 =>
             array (
                 'signa_id' => 630,
                 'signa_kode' => '2DD5G ODS',
@@ -10101,7 +10101,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            130 => 
+            130 =>
             array (
                 'signa_id' => 631,
                 'signa_kode' => '2DD5I',
@@ -10117,7 +10117,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            131 => 
+            131 =>
             array (
                 'signa_id' => 632,
                 'signa_kode' => '2DD5IJ',
@@ -10133,7 +10133,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            132 => 
+            132 =>
             array (
                 'signa_id' => 633,
                 'signa_kode' => '2DD5ML',
@@ -10149,7 +10149,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            133 => 
+            133 =>
             array (
                 'signa_id' => 634,
                 'signa_kode' => '2DD5ML AC',
@@ -10165,7 +10165,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            134 => 
+            134 =>
             array (
                 'signa_id' => 635,
                 'signa_kode' => '2DD5ML PC',
@@ -10181,7 +10181,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            135 => 
+            135 =>
             array (
                 'signa_id' => 636,
                 'signa_kode' => '2DD5ML PC VI ',
@@ -10197,7 +10197,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            136 => 
+            136 =>
             array (
                 'signa_id' => 637,
                 'signa_kode' => '2DD5S',
@@ -10213,7 +10213,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            137 => 
+            137 =>
             array (
                 'signa_id' => 638,
                 'signa_kode' => '2DD5T AC',
@@ -10229,7 +10229,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            138 => 
+            138 =>
             array (
                 'signa_id' => 639,
                 'signa_kode' => '2DD5T PC',
@@ -10245,7 +10245,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            139 => 
+            139 =>
             array (
                 'signa_id' => 640,
                 'signa_kode' => '2DD6B AC',
@@ -10261,7 +10261,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            140 => 
+            140 =>
             array (
                 'signa_id' => 641,
                 'signa_kode' => '2DD6B PC',
@@ -10277,7 +10277,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            141 => 
+            141 =>
             array (
                 'signa_id' => 642,
                 'signa_kode' => '2DD6C',
@@ -10293,7 +10293,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            142 => 
+            142 =>
             array (
                 'signa_id' => 643,
                 'signa_kode' => '2DD6C AC',
@@ -10309,7 +10309,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            143 => 
+            143 =>
             array (
                 'signa_id' => 644,
                 'signa_kode' => '2DD6C PC',
@@ -10325,7 +10325,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            144 => 
+            144 =>
             array (
                 'signa_id' => 645,
                 'signa_kode' => '2DD6G AD',
@@ -10341,7 +10341,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            145 => 
+            145 =>
             array (
                 'signa_id' => 646,
                 'signa_kode' => '2DD6G ADS',
@@ -10357,7 +10357,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            146 => 
+            146 =>
             array (
                 'signa_id' => 647,
                 'signa_kode' => '2DD6G AS',
@@ -10373,7 +10373,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            147 => 
+            147 =>
             array (
                 'signa_id' => 648,
                 'signa_kode' => '2DD6G MI',
@@ -10389,7 +10389,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            148 => 
+            148 =>
             array (
                 'signa_id' => 649,
                 'signa_kode' => '2DD6G ND',
@@ -10405,7 +10405,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            149 => 
+            149 =>
             array (
                 'signa_id' => 650,
                 'signa_kode' => '2DD6G NDS',
@@ -10421,7 +10421,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            150 => 
+            150 =>
             array (
                 'signa_id' => 651,
                 'signa_kode' => '2DD6G NS',
@@ -10437,7 +10437,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            151 => 
+            151 =>
             array (
                 'signa_id' => 652,
                 'signa_kode' => '2DD6G OD',
@@ -10453,7 +10453,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            152 => 
+            152 =>
             array (
                 'signa_id' => 653,
                 'signa_kode' => '2DD6G ODS',
@@ -10469,7 +10469,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            153 => 
+            153 =>
             array (
                 'signa_id' => 654,
                 'signa_kode' => '2DD6G OS',
@@ -10485,7 +10485,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            154 => 
+            154 =>
             array (
                 'signa_id' => 655,
                 'signa_kode' => '2DD6I',
@@ -10501,7 +10501,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            155 => 
+            155 =>
             array (
                 'signa_id' => 656,
                 'signa_kode' => '2DD6IJ',
@@ -10517,7 +10517,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            156 => 
+            156 =>
             array (
                 'signa_id' => 657,
                 'signa_kode' => '2DD6ML PC',
@@ -10533,7 +10533,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            157 => 
+            157 =>
             array (
                 'signa_id' => 658,
                 'signa_kode' => '2DD6S',
@@ -10549,7 +10549,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            158 => 
+            158 =>
             array (
                 'signa_id' => 659,
                 'signa_kode' => '2DD6T AC',
@@ -10565,7 +10565,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            159 => 
+            159 =>
             array (
                 'signa_id' => 660,
                 'signa_kode' => '2DD6T PC',
@@ -10581,7 +10581,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            160 => 
+            160 =>
             array (
                 'signa_id' => 661,
                 'signa_kode' => '2DD7.5ML AC',
@@ -10597,7 +10597,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            161 => 
+            161 =>
             array (
                 'signa_id' => 662,
                 'signa_kode' => '2DD7.5ML PC',
@@ -10613,7 +10613,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            162 => 
+            162 =>
             array (
                 'signa_id' => 663,
                 'signa_kode' => '2DD7ML AC',
@@ -10629,7 +10629,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            163 => 
+            163 =>
             array (
                 'signa_id' => 664,
                 'signa_kode' => '2DD7ML PC',
@@ -10645,7 +10645,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            164 => 
+            164 =>
             array (
                 'signa_id' => 665,
                 'signa_kode' => '2DD8G MI',
@@ -10661,7 +10661,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            165 => 
+            165 =>
             array (
                 'signa_id' => 666,
                 'signa_kode' => '2DD8ML AC',
@@ -10677,7 +10677,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            166 => 
+            166 =>
             array (
                 'signa_id' => 667,
                 'signa_kode' => '2DD8ML PC',
@@ -10693,7 +10693,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            167 => 
+            167 =>
             array (
                 'signa_id' => 668,
                 'signa_kode' => '2DDOL TI',
@@ -10709,7 +10709,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            168 => 
+            168 =>
             array (
                 'signa_id' => 669,
                 'signa_kode' => '2DDOL TI BE',
@@ -10725,7 +10725,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            169 => 
+            169 =>
             array (
                 'signa_id' => 670,
                 'signa_kode' => '2DDOL TI BH',
@@ -10741,7 +10741,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            170 => 
+            170 =>
             array (
                 'signa_id' => 671,
                 'signa_kode' => '2DDOL Z',
@@ -10757,7 +10757,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            171 => 
+            171 =>
             array (
                 'signa_id' => 672,
                 'signa_kode' => '3DD0.8ML AC',
@@ -10773,7 +10773,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            172 => 
+            172 =>
             array (
                 'signa_id' => 673,
                 'signa_kode' => '2DDOL Z OD',
@@ -10789,7 +10789,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            173 => 
+            173 =>
             array (
                 'signa_id' => 674,
                 'signa_kode' => '2DDOL Z ODS',
@@ -10805,7 +10805,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            174 => 
+            174 =>
             array (
                 'signa_id' => 675,
                 'signa_kode' => '2DDOL Z OS',
@@ -10821,7 +10821,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            175 => 
+            175 =>
             array (
                 'signa_id' => 676,
                 'signa_kode' => '2H1G OD',
@@ -10837,7 +10837,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            176 => 
+            176 =>
             array (
                 'signa_id' => 677,
                 'signa_kode' => '2H1G ODS',
@@ -10853,7 +10853,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            177 => 
+            177 =>
             array (
                 'signa_id' => 678,
                 'signa_kode' => '2H1G OS',
@@ -10869,7 +10869,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            178 => 
+            178 =>
             array (
                 'signa_id' => 679,
                 'signa_kode' => '3DD0.1ML',
@@ -10885,7 +10885,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            179 => 
+            179 =>
             array (
                 'signa_id' => 680,
                 'signa_kode' => '3DD0.1ML AC',
@@ -10901,7 +10901,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            180 => 
+            180 =>
             array (
                 'signa_id' => 681,
                 'signa_kode' => '3DD0.1ML PC',
@@ -10917,7 +10917,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            181 => 
+            181 =>
             array (
                 'signa_id' => 682,
                 'signa_kode' => '3DD0.25ML',
@@ -10933,7 +10933,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            182 => 
+            182 =>
             array (
                 'signa_id' => 683,
                 'signa_kode' => '3DD0.25ML AC',
@@ -10949,7 +10949,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            183 => 
+            183 =>
             array (
                 'signa_id' => 684,
                 'signa_kode' => '3DD0.25ML PC',
@@ -10965,7 +10965,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            184 => 
+            184 =>
             array (
                 'signa_id' => 685,
                 'signa_kode' => '3DD0.25T PC',
@@ -10981,7 +10981,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            185 => 
+            185 =>
             array (
                 'signa_id' => 686,
                 'signa_kode' => '3DD0.2ML',
@@ -10997,7 +10997,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            186 => 
+            186 =>
             array (
                 'signa_id' => 687,
                 'signa_kode' => '3DD0.2ML AC',
@@ -11013,7 +11013,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            187 => 
+            187 =>
             array (
                 'signa_id' => 688,
                 'signa_kode' => '3DD0.2ML BA',
@@ -11029,7 +11029,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            188 => 
+            188 =>
             array (
                 'signa_id' => 689,
                 'signa_kode' => '3DD0.2ML PC',
@@ -11045,7 +11045,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            189 => 
+            189 =>
             array (
                 'signa_id' => 690,
                 'signa_kode' => '3DD0.3ML',
@@ -11061,7 +11061,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            190 => 
+            190 =>
             array (
                 'signa_id' => 691,
                 'signa_kode' => '3DD0.3ML AC',
@@ -11077,7 +11077,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            191 => 
+            191 =>
             array (
                 'signa_id' => 692,
                 'signa_kode' => '3DD0.3ML BA',
@@ -11093,7 +11093,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            192 => 
+            192 =>
             array (
                 'signa_id' => 693,
                 'signa_kode' => '3DD0.3ML PC',
@@ -11109,7 +11109,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            193 => 
+            193 =>
             array (
                 'signa_id' => 694,
                 'signa_kode' => '3DD0.3ML PI',
@@ -11125,7 +11125,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            194 => 
+            194 =>
             array (
                 'signa_id' => 695,
                 'signa_kode' => '3DD0.4ML',
@@ -11141,7 +11141,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            195 => 
+            195 =>
             array (
                 'signa_id' => 696,
                 'signa_kode' => '3DD0.4ML AC',
@@ -11157,7 +11157,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            196 => 
+            196 =>
             array (
                 'signa_id' => 697,
                 'signa_kode' => '3DD0.4ML PC',
@@ -11173,7 +11173,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            197 => 
+            197 =>
             array (
                 'signa_id' => 698,
                 'signa_kode' => '3DD0.5C PSM AC',
@@ -11189,7 +11189,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            198 => 
+            198 =>
             array (
                 'signa_id' => 699,
                 'signa_kode' => '4DD0.2ML',
@@ -11205,7 +11205,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            199 => 
+            199 =>
             array (
                 'signa_id' => 700,
                 'signa_kode' => '3DD0.5C PSM PC',
@@ -11221,7 +11221,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            200 => 
+            200 =>
             array (
                 'signa_id' => 701,
                 'signa_kode' => '3DD0.5ML',
@@ -11237,7 +11237,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            201 => 
+            201 =>
             array (
                 'signa_id' => 702,
                 'signa_kode' => '3DD0.5ML AC',
@@ -11253,7 +11253,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            202 => 
+            202 =>
             array (
                 'signa_id' => 703,
                 'signa_kode' => '3DD0.5ML PC',
@@ -11269,7 +11269,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            203 => 
+            203 =>
             array (
                 'signa_id' => 704,
                 'signa_kode' => '3D0.5ML PI',
@@ -11285,7 +11285,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            204 => 
+            204 =>
             array (
                 'signa_id' => 705,
                 'signa_kode' => '3DD0.5T',
@@ -11301,7 +11301,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            205 => 
+            205 =>
             array (
                 'signa_id' => 706,
                 'signa_kode' => '3DD0.5T AC',
@@ -11317,7 +11317,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            206 => 
+            206 =>
             array (
                 'signa_id' => 707,
                 'signa_kode' => '2DD2T',
@@ -11333,7 +11333,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            207 => 
+            207 =>
             array (
                 'signa_id' => 708,
                 'signa_kode' => '3DD0.5T MU',
@@ -11349,7 +11349,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            208 => 
+            208 =>
             array (
                 'signa_id' => 709,
                 'signa_kode' => '3DD0.5T PC',
@@ -11365,7 +11365,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            209 => 
+            209 =>
             array (
                 'signa_id' => 710,
                 'signa_kode' => '3DD2T DC',
@@ -11381,7 +11381,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            210 => 
+            210 =>
             array (
                 'signa_id' => 711,
                 'signa_kode' => '3DD0.5T PSM AC',
@@ -11397,7 +11397,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            211 => 
+            211 =>
             array (
                 'signa_id' => 712,
                 'signa_kode' => '3DD0.5T PSM PC',
@@ -11413,7 +11413,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            212 => 
+            212 =>
             array (
                 'signa_id' => 713,
                 'signa_kode' => '3DD0.6ML',
@@ -11429,7 +11429,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            213 => 
+            213 =>
             array (
                 'signa_id' => 714,
                 'signa_kode' => '3DD0.6ML AC',
@@ -11445,7 +11445,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            214 => 
+            214 =>
             array (
                 'signa_id' => 715,
                 'signa_kode' => '2DD1T MA',
@@ -11461,7 +11461,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            215 => 
+            215 =>
             array (
                 'signa_id' => 716,
                 'signa_kode' => '2DDIC TO',
@@ -11477,7 +11477,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            216 => 
+            216 =>
             array (
                 'signa_id' => 717,
                 'signa_kode' => '3DD1.25ML AA',
@@ -11493,7 +11493,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            217 => 
+            217 =>
             array (
                 'signa_id' => 718,
                 'signa_kode' => '3DD1B DI',
@@ -11509,7 +11509,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            218 => 
+            218 =>
             array (
                 'signa_id' => 719,
                 'signa_kode' => '3DD1B IN',
@@ -11525,7 +11525,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            219 => 
+            219 =>
             array (
                 'signa_id' => 720,
                 'signa_kode' => '3DDO PA',
@@ -11541,7 +11541,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            220 => 
+            220 =>
             array (
                 'signa_id' => 721,
                 'signa_kode' => '0-0-0.5 C',
@@ -11557,7 +11557,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            221 => 
+            221 =>
             array (
                 'signa_id' => 722,
                 'signa_kode' => '3DD1B BP',
@@ -11573,7 +11573,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            222 => 
+            222 =>
             array (
                 'signa_id' => 723,
                 'signa_kode' => '3DD1B DE',
@@ -11589,7 +11589,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            223 => 
+            223 =>
             array (
                 'signa_id' => 724,
                 'signa_kode' => '3DD1B PC',
@@ -11605,7 +11605,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            224 => 
+            224 =>
             array (
                 'signa_id' => 725,
                 'signa_kode' => '3DD1C',
@@ -11621,7 +11621,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            225 => 
+            225 =>
             array (
                 'signa_id' => 726,
                 'signa_kode' => '3DD1C AB',
@@ -11637,7 +11637,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            226 => 
+            226 =>
             array (
                 'signa_id' => 727,
                 'signa_kode' => '3DD1C AC',
@@ -11653,7 +11653,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            227 => 
+            227 =>
             array (
                 'signa_id' => 728,
                 'signa_kode' => '3DD1C AV',
@@ -11669,7 +11669,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            228 => 
+            228 =>
             array (
                 'signa_id' => 729,
                 'signa_kode' => '3DD1C PC',
@@ -11685,7 +11685,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            229 => 
+            229 =>
             array (
                 'signa_id' => 730,
                 'signa_kode' => '3DD1G AD',
@@ -11701,7 +11701,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            230 => 
+            230 =>
             array (
                 'signa_id' => 731,
                 'signa_kode' => '3DD1G ADS',
@@ -11717,7 +11717,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            231 => 
+            231 =>
             array (
                 'signa_id' => 732,
                 'signa_kode' => '3DD1G AS',
@@ -11733,7 +11733,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            232 => 
+            232 =>
             array (
                 'signa_id' => 733,
                 'signa_kode' => '3DD1G MI',
@@ -11749,7 +11749,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            233 => 
+            233 =>
             array (
                 'signa_id' => 734,
                 'signa_kode' => '3DD1G ND',
@@ -11765,7 +11765,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            234 => 
+            234 =>
             array (
                 'signa_id' => 735,
                 'signa_kode' => '3DD1G NDS',
@@ -11781,7 +11781,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            235 => 
+            235 =>
             array (
                 'signa_id' => 736,
                 'signa_kode' => '3DD1G NS',
@@ -11797,7 +11797,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            236 => 
+            236 =>
             array (
                 'signa_id' => 737,
                 'signa_kode' => '3DD1G OD',
@@ -11813,7 +11813,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            237 => 
+            237 =>
             array (
                 'signa_id' => 738,
                 'signa_kode' => '3DD1G ODS',
@@ -11829,7 +11829,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            238 => 
+            238 =>
             array (
                 'signa_id' => 739,
                 'signa_kode' => '3DD1G OS',
@@ -11845,7 +11845,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            239 => 
+            239 =>
             array (
                 'signa_id' => 740,
                 'signa_kode' => '3DD1I',
@@ -11861,7 +11861,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            240 => 
+            240 =>
             array (
                 'signa_id' => 741,
                 'signa_kode' => '3DD1IJ',
@@ -11877,7 +11877,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            241 => 
+            241 =>
             array (
                 'signa_id' => 742,
                 'signa_kode' => '3DD1ML AC',
@@ -11893,7 +11893,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            242 => 
+            242 =>
             array (
                 'signa_id' => 743,
                 'signa_kode' => '3DD1ML PC',
@@ -11909,7 +11909,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            243 => 
+            243 =>
             array (
                 'signa_id' => 744,
                 'signa_kode' => '3DD1S',
@@ -11925,7 +11925,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            244 => 
+            244 =>
             array (
                 'signa_id' => 745,
                 'signa_kode' => '3DD1SUP',
@@ -11941,7 +11941,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            245 => 
+            245 =>
             array (
                 'signa_id' => 746,
                 'signa_kode' => '3DD1T',
@@ -11957,7 +11957,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            246 => 
+            246 =>
             array (
                 'signa_id' => 747,
                 'signa_kode' => '3DD1T AC',
@@ -11973,7 +11973,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            247 => 
+            247 =>
             array (
                 'signa_id' => 748,
                 'signa_kode' => '2DD6B',
@@ -11989,7 +11989,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            248 => 
+            248 =>
             array (
                 'signa_id' => 749,
                 'signa_kode' => '3DD1T AV',
@@ -12005,7 +12005,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            249 => 
+            249 =>
             array (
                 'signa_id' => 750,
                 'signa_kode' => '3DD1T DC',
@@ -12021,7 +12021,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            250 => 
+            250 =>
             array (
                 'signa_id' => 751,
                 'signa_kode' => '3DD1T DE',
@@ -12037,7 +12037,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            251 => 
+            251 =>
             array (
                 'signa_id' => 752,
                 'signa_kode' => '3DD1T MU',
@@ -12053,7 +12053,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            252 => 
+            252 =>
             array (
                 'signa_id' => 753,
                 'signa_kode' => '3DD1T PC',
@@ -12069,7 +12069,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            253 => 
+            253 =>
             array (
                 'signa_id' => 754,
                 'signa_kode' => '3DD1T SA',
@@ -12085,7 +12085,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            254 => 
+            254 =>
             array (
                 'signa_id' => 755,
                 'signa_kode' => '3DD2.5ML AC',
@@ -12101,7 +12101,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            255 => 
+            255 =>
             array (
                 'signa_id' => 756,
                 'signa_kode' => '3DD2.5ML BA',
@@ -12117,7 +12117,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            256 => 
+            256 =>
             array (
                 'signa_id' => 757,
                 'signa_kode' => '3DD2.5ML PC',
@@ -12133,7 +12133,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            257 => 
+            257 =>
             array (
                 'signa_id' => 758,
                 'signa_kode' => '3DD20ML',
@@ -12149,7 +12149,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            258 => 
+            258 =>
             array (
                 'signa_id' => 759,
                 'signa_kode' => '3DD20ML AC',
@@ -12165,7 +12165,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            259 => 
+            259 =>
             array (
                 'signa_id' => 760,
                 'signa_kode' => '3DD20ML PC',
@@ -12181,7 +12181,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            260 => 
+            260 =>
             array (
                 'signa_id' => 761,
                 'signa_kode' => '3DD25ML AC',
@@ -12197,7 +12197,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            261 => 
+            261 =>
             array (
                 'signa_id' => 762,
                 'signa_kode' => '3DD25ML PC',
@@ -12213,7 +12213,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            262 => 
+            262 =>
             array (
                 'signa_id' => 763,
                 'signa_kode' => '3DD2B',
@@ -12229,7 +12229,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            263 => 
+            263 =>
             array (
                 'signa_id' => 764,
                 'signa_kode' => '3DD2B AC',
@@ -12245,7 +12245,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            264 => 
+            264 =>
             array (
                 'signa_id' => 765,
                 'signa_kode' => '3DD2B PC',
@@ -12261,7 +12261,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            265 => 
+            265 =>
             array (
                 'signa_id' => 766,
                 'signa_kode' => '3DD2C',
@@ -12277,7 +12277,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            266 => 
+            266 =>
             array (
                 'signa_id' => 767,
                 'signa_kode' => '3DD2C AC',
@@ -12293,7 +12293,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            267 => 
+            267 =>
             array (
                 'signa_id' => 768,
                 'signa_kode' => '3DD2G ADS',
@@ -12309,7 +12309,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            268 => 
+            268 =>
             array (
                 'signa_id' => 769,
                 'signa_kode' => '3DD2G AS',
@@ -12325,7 +12325,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            269 => 
+            269 =>
             array (
                 'signa_id' => 770,
                 'signa_kode' => '3DD2G MI',
@@ -12341,7 +12341,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            270 => 
+            270 =>
             array (
                 'signa_id' => 771,
                 'signa_kode' => '3DD2G ND',
@@ -12357,7 +12357,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            271 => 
+            271 =>
             array (
                 'signa_id' => 772,
                 'signa_kode' => '3DD2G NDS',
@@ -12373,7 +12373,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            272 => 
+            272 =>
             array (
                 'signa_id' => 773,
                 'signa_kode' => '3DD2G NS',
@@ -12389,7 +12389,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            273 => 
+            273 =>
             array (
                 'signa_id' => 774,
                 'signa_kode' => '3DD2G OD',
@@ -12405,7 +12405,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            274 => 
+            274 =>
             array (
                 'signa_id' => 775,
                 'signa_kode' => '3DD2G ODS',
@@ -12421,7 +12421,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            275 => 
+            275 =>
             array (
                 'signa_id' => 776,
                 'signa_kode' => '3DD2G OS',
@@ -12437,7 +12437,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            276 => 
+            276 =>
             array (
                 'signa_id' => 777,
                 'signa_kode' => '3DD2I',
@@ -12453,7 +12453,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            277 => 
+            277 =>
             array (
                 'signa_id' => 778,
                 'signa_kode' => '3DD2IJ',
@@ -12469,7 +12469,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            278 => 
+            278 =>
             array (
                 'signa_id' => 779,
                 'signa_kode' => '3DD2ML',
@@ -12485,7 +12485,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            279 => 
+            279 =>
             array (
                 'signa_id' => 780,
                 'signa_kode' => '3DD2ML AC',
@@ -12501,7 +12501,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            280 => 
+            280 =>
             array (
                 'signa_id' => 781,
                 'signa_kode' => '3DD2ML PC',
@@ -12517,7 +12517,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            281 => 
+            281 =>
             array (
                 'signa_id' => 782,
                 'signa_kode' => '3DD2S',
@@ -12533,7 +12533,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            282 => 
+            282 =>
             array (
                 'signa_id' => 783,
                 'signa_kode' => '3DD2T AC',
@@ -12549,7 +12549,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            283 => 
+            283 =>
             array (
                 'signa_id' => 784,
                 'signa_kode' => '3DD2T PC',
@@ -12565,7 +12565,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            284 => 
+            284 =>
             array (
                 'signa_id' => 785,
                 'signa_kode' => '3DD30ML',
@@ -12581,7 +12581,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            285 => 
+            285 =>
             array (
                 'signa_id' => 786,
                 'signa_kode' => '3DD30ML AC',
@@ -12597,7 +12597,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            286 => 
+            286 =>
             array (
                 'signa_id' => 787,
                 'signa_kode' => '3DD30ML PC',
@@ -12613,7 +12613,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            287 => 
+            287 =>
             array (
                 'signa_id' => 788,
                 'signa_kode' => '3DD3B',
@@ -12629,7 +12629,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            288 => 
+            288 =>
             array (
                 'signa_id' => 789,
                 'signa_kode' => '3DD3B AC',
@@ -12645,7 +12645,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            289 => 
+            289 =>
             array (
                 'signa_id' => 790,
                 'signa_kode' => '3DD3B PC',
@@ -12661,7 +12661,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            290 => 
+            290 =>
             array (
                 'signa_id' => 791,
                 'signa_kode' => '3DD3C AC',
@@ -12677,7 +12677,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            291 => 
+            291 =>
             array (
                 'signa_id' => 792,
                 'signa_kode' => '3DD3C PC',
@@ -12693,7 +12693,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            292 => 
+            292 =>
             array (
                 'signa_id' => 793,
                 'signa_kode' => '3DD8G MI',
@@ -12709,7 +12709,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            293 => 
+            293 =>
             array (
                 'signa_id' => 794,
                 'signa_kode' => '3DD3G AD',
@@ -12725,7 +12725,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            294 => 
+            294 =>
             array (
                 'signa_id' => 795,
                 'signa_kode' => '3DD3G ADS',
@@ -12741,7 +12741,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            295 => 
+            295 =>
             array (
                 'signa_id' => 796,
                 'signa_kode' => '3DD3G AS',
@@ -12757,7 +12757,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            296 => 
+            296 =>
             array (
                 'signa_id' => 797,
                 'signa_kode' => '3DD3G MI',
@@ -12773,7 +12773,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            297 => 
+            297 =>
             array (
                 'signa_id' => 798,
                 'signa_kode' => '3DD3G ND',
@@ -12789,7 +12789,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            298 => 
+            298 =>
             array (
                 'signa_id' => 799,
                 'signa_kode' => '3DD3G NDS',
@@ -12805,7 +12805,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            299 => 
+            299 =>
             array (
                 'signa_id' => 800,
                 'signa_kode' => '3DD3G OD',
@@ -12821,7 +12821,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            300 => 
+            300 =>
             array (
                 'signa_id' => 801,
                 'signa_kode' => '3DD3G ODS',
@@ -12837,7 +12837,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            301 => 
+            301 =>
             array (
                 'signa_id' => 802,
                 'signa_kode' => '3DD3G OS',
@@ -12853,7 +12853,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            302 => 
+            302 =>
             array (
                 'signa_id' => 803,
                 'signa_kode' => '3DD3IJ',
@@ -12869,7 +12869,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            303 => 
+            303 =>
             array (
                 'signa_id' => 804,
                 'signa_kode' => '3DD3ML AC',
@@ -12885,7 +12885,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            304 => 
+            304 =>
             array (
                 'signa_id' => 805,
                 'signa_kode' => '3DD3ML PC',
@@ -12901,7 +12901,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            305 => 
+            305 =>
             array (
                 'signa_id' => 806,
                 'signa_kode' => '3DD3S',
@@ -12917,7 +12917,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            306 => 
+            306 =>
             array (
                 'signa_id' => 807,
                 'signa_kode' => '3DD3T',
@@ -12933,7 +12933,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            307 => 
+            307 =>
             array (
                 'signa_id' => 808,
                 'signa_kode' => '3DD3T AC',
@@ -12949,7 +12949,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            308 => 
+            308 =>
             array (
                 'signa_id' => 809,
                 'signa_kode' => '3DD3T PC',
@@ -12965,7 +12965,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            309 => 
+            309 =>
             array (
                 'signa_id' => 810,
                 'signa_kode' => '3DD4B',
@@ -12981,7 +12981,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            310 => 
+            310 =>
             array (
                 'signa_id' => 811,
                 'signa_kode' => '3DD4G AD',
@@ -12997,7 +12997,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            311 => 
+            311 =>
             array (
                 'signa_id' => 812,
                 'signa_kode' => '3DD4G ADS',
@@ -13013,7 +13013,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            312 => 
+            312 =>
             array (
                 'signa_id' => 813,
                 'signa_kode' => '3DD4G AS',
@@ -13029,7 +13029,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            313 => 
+            313 =>
             array (
                 'signa_id' => 814,
                 'signa_kode' => '3DD4G MI',
@@ -13045,7 +13045,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            314 => 
+            314 =>
             array (
                 'signa_id' => 815,
                 'signa_kode' => '3DD4G ND',
@@ -13061,7 +13061,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            315 => 
+            315 =>
             array (
                 'signa_id' => 816,
                 'signa_kode' => '3DD4G NDS',
@@ -13077,7 +13077,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            316 => 
+            316 =>
             array (
                 'signa_id' => 817,
                 'signa_kode' => '3DD4G NS',
@@ -13093,7 +13093,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            317 => 
+            317 =>
             array (
                 'signa_id' => 818,
                 'signa_kode' => '3DD4G OD',
@@ -13109,7 +13109,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            318 => 
+            318 =>
             array (
                 'signa_id' => 819,
                 'signa_kode' => '3DD4G ODS',
@@ -13125,7 +13125,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            319 => 
+            319 =>
             array (
                 'signa_id' => 820,
                 'signa_kode' => '3DD4G OS',
@@ -13141,7 +13141,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            320 => 
+            320 =>
             array (
                 'signa_id' => 821,
                 'signa_kode' => '3DD4I',
@@ -13157,7 +13157,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            321 => 
+            321 =>
             array (
                 'signa_id' => 822,
                 'signa_kode' => '3DD4IJ',
@@ -13173,7 +13173,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            322 => 
+            322 =>
             array (
                 'signa_id' => 823,
                 'signa_kode' => '3DD4ML AB',
@@ -13189,7 +13189,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            323 => 
+            323 =>
             array (
                 'signa_id' => 824,
                 'signa_kode' => '3DD4ML AC',
@@ -13205,7 +13205,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            324 => 
+            324 =>
             array (
                 'signa_id' => 825,
                 'signa_kode' => '3DD4ML PC',
@@ -13221,7 +13221,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            325 => 
+            325 =>
             array (
                 'signa_id' => 826,
                 'signa_kode' => '3DD4S',
@@ -13237,7 +13237,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            326 => 
+            326 =>
             array (
                 'signa_id' => 827,
                 'signa_kode' => '3DD4T',
@@ -13253,7 +13253,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            327 => 
+            327 =>
             array (
                 'signa_id' => 828,
                 'signa_kode' => '4DD2.5ML',
@@ -13269,7 +13269,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            328 => 
+            328 =>
             array (
                 'signa_id' => 829,
                 'signa_kode' => '3DD4T AC',
@@ -13285,7 +13285,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            329 => 
+            329 =>
             array (
                 'signa_id' => 830,
                 'signa_kode' => '3DD4T PC',
@@ -13301,7 +13301,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            330 => 
+            330 =>
             array (
                 'signa_id' => 831,
                 'signa_kode' => '3DD5B',
@@ -13317,7 +13317,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            331 => 
+            331 =>
             array (
                 'signa_id' => 832,
                 'signa_kode' => '3DD5B AC',
@@ -13333,7 +13333,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            332 => 
+            332 =>
             array (
                 'signa_id' => 833,
                 'signa_kode' => '3DD5B PC',
@@ -13349,7 +13349,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            333 => 
+            333 =>
             array (
                 'signa_id' => 834,
                 'signa_kode' => '3DD5C',
@@ -13365,7 +13365,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            334 => 
+            334 =>
             array (
                 'signa_id' => 835,
                 'signa_kode' => '3DD5C AC',
@@ -13381,7 +13381,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            335 => 
+            335 =>
             array (
                 'signa_id' => 836,
                 'signa_kode' => '3DD5C PC',
@@ -13397,7 +13397,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            336 => 
+            336 =>
             array (
                 'signa_id' => 837,
                 'signa_kode' => '3DD5G AD',
@@ -13413,7 +13413,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            337 => 
+            337 =>
             array (
                 'signa_id' => 838,
                 'signa_kode' => '3DD5G ADS',
@@ -13429,7 +13429,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            338 => 
+            338 =>
             array (
                 'signa_id' => 839,
                 'signa_kode' => '3DD5G AS',
@@ -13445,7 +13445,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            339 => 
+            339 =>
             array (
                 'signa_id' => 840,
                 'signa_kode' => '3DD5G MI',
@@ -13461,7 +13461,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            340 => 
+            340 =>
             array (
                 'signa_id' => 841,
                 'signa_kode' => '3DD5G ND',
@@ -13477,7 +13477,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            341 => 
+            341 =>
             array (
                 'signa_id' => 842,
                 'signa_kode' => '1DD4T M',
@@ -13493,7 +13493,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            342 => 
+            342 =>
             array (
                 'signa_id' => 843,
                 'signa_kode' => '3DD5G NDS',
@@ -13509,7 +13509,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            343 => 
+            343 =>
             array (
                 'signa_id' => 844,
                 'signa_kode' => '3DD5G NS',
@@ -13525,7 +13525,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            344 => 
+            344 =>
             array (
                 'signa_id' => 845,
                 'signa_kode' => '3DD5G OD',
@@ -13541,7 +13541,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            345 => 
+            345 =>
             array (
                 'signa_id' => 846,
                 'signa_kode' => '3DD5G ODS',
@@ -13557,7 +13557,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            346 => 
+            346 =>
             array (
                 'signa_id' => 847,
                 'signa_kode' => '3DD5G OS',
@@ -13573,7 +13573,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            347 => 
+            347 =>
             array (
                 'signa_id' => 848,
                 'signa_kode' => '3DD5I',
@@ -13589,7 +13589,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            348 => 
+            348 =>
             array (
                 'signa_id' => 849,
                 'signa_kode' => '3DD5IJ',
@@ -13605,7 +13605,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            349 => 
+            349 =>
             array (
                 'signa_id' => 850,
                 'signa_kode' => '3DD5ML AB',
@@ -13621,7 +13621,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            350 => 
+            350 =>
             array (
                 'signa_id' => 851,
                 'signa_kode' => '3DD5ML AC',
@@ -13637,7 +13637,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            351 => 
+            351 =>
             array (
                 'signa_id' => 852,
                 'signa_kode' => '3DD5ML BA',
@@ -13653,7 +13653,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            352 => 
+            352 =>
             array (
                 'signa_id' => 853,
                 'signa_kode' => '3DD5ML BP',
@@ -13669,7 +13669,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            353 => 
+            353 =>
             array (
                 'signa_id' => 854,
                 'signa_kode' => '3DD5ML DE',
@@ -13685,7 +13685,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            354 => 
+            354 =>
             array (
                 'signa_id' => 855,
                 'signa_kode' => '4DD5T',
@@ -13701,7 +13701,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            355 => 
+            355 =>
             array (
                 'signa_id' => 856,
                 'signa_kode' => '3DD5ML DI',
@@ -13717,7 +13717,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            356 => 
+            356 =>
             array (
                 'signa_id' => 857,
                 'signa_kode' => '3DD5ML MU',
@@ -13733,7 +13733,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            357 => 
+            357 =>
             array (
                 'signa_id' => 858,
                 'signa_kode' => '3DD5ML PC',
@@ -13749,7 +13749,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            358 => 
+            358 =>
             array (
                 'signa_id' => 859,
                 'signa_kode' => '3DD5ML PI',
@@ -13765,7 +13765,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            359 => 
+            359 =>
             array (
                 'signa_id' => 860,
                 'signa_kode' => '3DD5ML VI',
@@ -13781,7 +13781,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            360 => 
+            360 =>
             array (
                 'signa_id' => 861,
                 'signa_kode' => '3DD5S',
@@ -13797,7 +13797,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            361 => 
+            361 =>
             array (
                 'signa_id' => 862,
                 'signa_kode' => '3DD5T',
@@ -13813,7 +13813,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            362 => 
+            362 =>
             array (
                 'signa_id' => 863,
                 'signa_kode' => '3DD5T AC',
@@ -13829,7 +13829,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            363 => 
+            363 =>
             array (
                 'signa_id' => 864,
                 'signa_kode' => '3DD5T PC',
@@ -13845,7 +13845,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            364 => 
+            364 =>
             array (
                 'signa_id' => 865,
                 'signa_kode' => '1DD12ML AC',
@@ -13861,7 +13861,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            365 => 
+            365 =>
             array (
                 'signa_id' => 866,
                 'signa_kode' => '3DD6B AC',
@@ -13877,7 +13877,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            366 => 
+            366 =>
             array (
                 'signa_id' => 867,
                 'signa_kode' => '3DD6B PC',
@@ -13893,7 +13893,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            367 => 
+            367 =>
             array (
                 'signa_id' => 868,
                 'signa_kode' => '3DD6C',
@@ -13909,7 +13909,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            368 => 
+            368 =>
             array (
                 'signa_id' => 869,
                 'signa_kode' => '3DD6C AC',
@@ -13925,7 +13925,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            369 => 
+            369 =>
             array (
                 'signa_id' => 870,
                 'signa_kode' => '3DD6C PC',
@@ -13941,7 +13941,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            370 => 
+            370 =>
             array (
                 'signa_id' => 871,
                 'signa_kode' => '3DD6G AD',
@@ -13957,7 +13957,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            371 => 
+            371 =>
             array (
                 'signa_id' => 872,
                 'signa_kode' => '3DD6G ADS',
@@ -13973,7 +13973,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            372 => 
+            372 =>
             array (
                 'signa_id' => 873,
                 'signa_kode' => '3DD6G AS',
@@ -13989,7 +13989,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            373 => 
+            373 =>
             array (
                 'signa_id' => 874,
                 'signa_kode' => '3DD6G MI',
@@ -14005,7 +14005,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            374 => 
+            374 =>
             array (
                 'signa_id' => 875,
                 'signa_kode' => '3DD6G ND',
@@ -14021,7 +14021,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            375 => 
+            375 =>
             array (
                 'signa_id' => 876,
                 'signa_kode' => '3DD6G NDS',
@@ -14037,7 +14037,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            376 => 
+            376 =>
             array (
                 'signa_id' => 877,
                 'signa_kode' => '3DD6G NS',
@@ -14053,7 +14053,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            377 => 
+            377 =>
             array (
                 'signa_id' => 878,
                 'signa_kode' => '3DD6G OD',
@@ -14069,7 +14069,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            378 => 
+            378 =>
             array (
                 'signa_id' => 879,
                 'signa_kode' => '3DD6G ODS',
@@ -14085,7 +14085,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            379 => 
+            379 =>
             array (
                 'signa_id' => 880,
                 'signa_kode' => '3DD6G OS',
@@ -14101,7 +14101,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            380 => 
+            380 =>
             array (
                 'signa_id' => 881,
                 'signa_kode' => '3DD6ML AC',
@@ -14117,7 +14117,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            381 => 
+            381 =>
             array (
                 'signa_id' => 882,
                 'signa_kode' => '3DD6ML PC',
@@ -14133,7 +14133,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            382 => 
+            382 =>
             array (
                 'signa_id' => 883,
                 'signa_kode' => '3DD6S',
@@ -14149,7 +14149,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            383 => 
+            383 =>
             array (
                 'signa_id' => 884,
                 'signa_kode' => '3DD6T AC',
@@ -14165,7 +14165,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            384 => 
+            384 =>
             array (
                 'signa_id' => 885,
                 'signa_kode' => '3DD6T PC',
@@ -14181,7 +14181,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            385 => 
+            385 =>
             array (
                 'signa_id' => 886,
                 'signa_kode' => '3DD7.5ML',
@@ -14197,7 +14197,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            386 => 
+            386 =>
             array (
                 'signa_id' => 887,
                 'signa_kode' => '3DD7.5ML AC',
@@ -14213,7 +14213,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            387 => 
+            387 =>
             array (
                 'signa_id' => 888,
                 'signa_kode' => '3DD7.5ML PC',
@@ -14229,7 +14229,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            388 => 
+            388 =>
             array (
                 'signa_id' => 889,
                 'signa_kode' => '3DD7ML',
@@ -14245,7 +14245,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            389 => 
+            389 =>
             array (
                 'signa_id' => 890,
                 'signa_kode' => '3DD7ML AC',
@@ -14261,7 +14261,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            390 => 
+            390 =>
             array (
                 'signa_id' => 891,
                 'signa_kode' => '3DD7ML PC',
@@ -14277,7 +14277,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            391 => 
+            391 =>
             array (
                 'signa_id' => 892,
                 'signa_kode' => '3DD8ML AC',
@@ -14293,7 +14293,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            392 => 
+            392 =>
             array (
                 'signa_id' => 893,
                 'signa_kode' => '3DD8ML PC',
@@ -14309,7 +14309,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            393 => 
+            393 =>
             array (
                 'signa_id' => 894,
                 'signa_kode' => '3DDO SA',
@@ -14325,7 +14325,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            394 => 
+            394 =>
             array (
                 'signa_id' => 895,
                 'signa_kode' => '3DDOL Z OD',
@@ -14341,7 +14341,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            395 => 
+            395 =>
             array (
                 'signa_id' => 896,
                 'signa_kode' => '3DDOL Z ODS',
@@ -14357,7 +14357,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            396 => 
+            396 =>
             array (
                 'signa_id' => 897,
                 'signa_kode' => '3DDOL Z OS',
@@ -14373,7 +14373,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            397 => 
+            397 =>
             array (
                 'signa_id' => 898,
                 'signa_kode' => '46DD0.25ML',
@@ -14389,7 +14389,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            398 => 
+            398 =>
             array (
                 'signa_id' => 899,
                 'signa_kode' => '46DD0.2ML',
@@ -14405,7 +14405,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            399 => 
+            399 =>
             array (
                 'signa_id' => 900,
                 'signa_kode' => '46DD0.3ML',
@@ -14421,7 +14421,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            400 => 
+            400 =>
             array (
                 'signa_id' => 901,
                 'signa_kode' => '46DD0.4ML',
@@ -14437,7 +14437,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            401 => 
+            401 =>
             array (
                 'signa_id' => 902,
                 'signa_kode' => '46DD0.5ML',
@@ -14453,7 +14453,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            402 => 
+            402 =>
             array (
                 'signa_id' => 903,
                 'signa_kode' => '46DD0.6ML',
@@ -14469,7 +14469,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            403 => 
+            403 =>
             array (
                 'signa_id' => 904,
                 'signa_kode' => '46DD0.7ML',
@@ -14485,7 +14485,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            404 => 
+            404 =>
             array (
                 'signa_id' => 905,
                 'signa_kode' => '46DD1ML DE',
@@ -14501,7 +14501,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            405 => 
+            405 =>
             array (
                 'signa_id' => 906,
                 'signa_kode' => '46DD2.5ML',
@@ -14517,7 +14517,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            406 => 
+            406 =>
             array (
                 'signa_id' => 907,
                 'signa_kode' => '5DD0.6ML AC',
@@ -14533,7 +14533,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            407 => 
+            407 =>
             array (
                 'signa_id' => 908,
                 'signa_kode' => '46DD5ML DE',
@@ -14549,7 +14549,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            408 => 
+            408 =>
             array (
                 'signa_id' => 909,
                 'signa_kode' => '4DD0.1ML AC',
@@ -14565,7 +14565,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            409 => 
+            409 =>
             array (
                 'signa_id' => 910,
                 'signa_kode' => '4DD0.1ML PC',
@@ -14581,7 +14581,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            410 => 
+            410 =>
             array (
                 'signa_id' => 911,
                 'signa_kode' => '4DD0.25ML',
@@ -14597,7 +14597,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            411 => 
+            411 =>
             array (
                 'signa_id' => 912,
                 'signa_kode' => '4DD0.25ML AC',
@@ -14613,7 +14613,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            412 => 
+            412 =>
             array (
                 'signa_id' => 913,
                 'signa_kode' => '4DD0.25ML PC',
@@ -14629,7 +14629,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            413 => 
+            413 =>
             array (
                 'signa_id' => 914,
                 'signa_kode' => '4DD0.25T',
@@ -14645,7 +14645,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            414 => 
+            414 =>
             array (
                 'signa_id' => 915,
                 'signa_kode' => '4DD0.25T PC',
@@ -14661,7 +14661,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            415 => 
+            415 =>
             array (
                 'signa_id' => 916,
                 'signa_kode' => '4DD0.2ML AC',
@@ -14677,7 +14677,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            416 => 
+            416 =>
             array (
                 'signa_id' => 917,
                 'signa_kode' => '4DD0.2ML PC',
@@ -14693,7 +14693,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            417 => 
+            417 =>
             array (
                 'signa_id' => 918,
                 'signa_kode' => '4DD0.3ML',
@@ -14709,7 +14709,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            418 => 
+            418 =>
             array (
                 'signa_id' => 919,
                 'signa_kode' => '4DD0.3ML AC',
@@ -14725,7 +14725,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            419 => 
+            419 =>
             array (
                 'signa_id' => 920,
                 'signa_kode' => '4DD0.3ML PC',
@@ -14741,7 +14741,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            420 => 
+            420 =>
             array (
                 'signa_id' => 921,
                 'signa_kode' => '4DD0.4ML AC',
@@ -14757,7 +14757,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            421 => 
+            421 =>
             array (
                 'signa_id' => 922,
                 'signa_kode' => '4DD0.4ML PC',
@@ -14773,7 +14773,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            422 => 
+            422 =>
             array (
                 'signa_id' => 923,
                 'signa_kode' => '4DD0.5ML',
@@ -14789,7 +14789,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            423 => 
+            423 =>
             array (
                 'signa_id' => 924,
                 'signa_kode' => '4DD0.5ML AC',
@@ -14805,7 +14805,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            424 => 
+            424 =>
             array (
                 'signa_id' => 925,
                 'signa_kode' => '4DD0.5ML PC',
@@ -14821,7 +14821,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            425 => 
+            425 =>
             array (
                 'signa_id' => 926,
                 'signa_kode' => '4DD0.5T',
@@ -14837,7 +14837,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            426 => 
+            426 =>
             array (
                 'signa_id' => 927,
                 'signa_kode' => '4DD0.5T AC',
@@ -14853,7 +14853,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            427 => 
+            427 =>
             array (
                 'signa_id' => 928,
                 'signa_kode' => '4DD0.5T PC',
@@ -14869,7 +14869,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            428 => 
+            428 =>
             array (
                 'signa_id' => 929,
                 'signa_kode' => '4DD0.6ML',
@@ -14885,7 +14885,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            429 => 
+            429 =>
             array (
                 'signa_id' => 930,
                 'signa_kode' => '4DD0.6ML AC',
@@ -14901,7 +14901,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            430 => 
+            430 =>
             array (
                 'signa_id' => 931,
                 'signa_kode' => '4DD0.6ML PC',
@@ -14917,7 +14917,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            431 => 
+            431 =>
             array (
                 'signa_id' => 932,
                 'signa_kode' => '4DD0.75T',
@@ -14933,7 +14933,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            432 => 
+            432 =>
             array (
                 'signa_id' => 933,
                 'signa_kode' => '4DD0.75T AC',
@@ -14949,7 +14949,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            433 => 
+            433 =>
             array (
                 'signa_id' => 934,
                 'signa_kode' => '4DD0.75T PC',
@@ -14965,7 +14965,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            434 => 
+            434 =>
             array (
                 'signa_id' => 935,
                 'signa_kode' => '4DD0.7ML',
@@ -14981,7 +14981,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            435 => 
+            435 =>
             array (
                 'signa_id' => 936,
                 'signa_kode' => '4DD0.7ML AC',
@@ -14997,7 +14997,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            436 => 
+            436 =>
             array (
                 'signa_id' => 937,
                 'signa_kode' => '46DD0.1ML',
@@ -15013,7 +15013,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            437 => 
+            437 =>
             array (
                 'signa_id' => 938,
                 'signa_kode' => '4DD0.7ML PC',
@@ -15029,7 +15029,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            438 => 
+            438 =>
             array (
                 'signa_id' => 939,
                 'signa_kode' => '4DD0.8ML AC',
@@ -15045,7 +15045,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            439 => 
+            439 =>
             array (
                 'signa_id' => 940,
                 'signa_kode' => '4DD0.8ML PC',
@@ -15061,7 +15061,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            440 => 
+            440 =>
             array (
                 'signa_id' => 941,
                 'signa_kode' => '4DD1.25ML',
@@ -15077,7 +15077,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            441 => 
+            441 =>
             array (
                 'signa_id' => 942,
                 'signa_kode' => '4DD1.25ML AC',
@@ -15093,7 +15093,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            442 => 
+            442 =>
             array (
                 'signa_id' => 943,
                 'signa_kode' => '4DD1.25ML PC',
@@ -15109,7 +15109,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            443 => 
+            443 =>
             array (
                 'signa_id' => 944,
                 'signa_kode' => '4DD1.5ML AC',
@@ -15125,7 +15125,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            444 => 
+            444 =>
             array (
                 'signa_id' => 945,
                 'signa_kode' => '4DD1.5ML PC',
@@ -15141,7 +15141,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            445 => 
+            445 =>
             array (
                 'signa_id' => 946,
                 'signa_kode' => '4DD10G OD',
@@ -15157,7 +15157,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            446 => 
+            446 =>
             array (
                 'signa_id' => 947,
                 'signa_kode' => '4DD10G ODS',
@@ -15173,7 +15173,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            447 => 
+            447 =>
             array (
                 'signa_id' => 948,
                 'signa_kode' => '3DD4ML',
@@ -15189,7 +15189,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            448 => 
+            448 =>
             array (
                 'signa_id' => 949,
                 'signa_kode' => '4DD10G OS',
@@ -15205,7 +15205,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            449 => 
+            449 =>
             array (
                 'signa_id' => 950,
                 'signa_kode' => '4DD10ML AC',
@@ -15221,7 +15221,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            450 => 
+            450 =>
             array (
                 'signa_id' => 951,
                 'signa_kode' => '4DD10ML PC',
@@ -15237,7 +15237,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            451 => 
+            451 =>
             array (
                 'signa_id' => 952,
                 'signa_kode' => '4DD12ML',
@@ -15253,7 +15253,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            452 => 
+            452 =>
             array (
                 'signa_id' => 953,
                 'signa_kode' => '4DD12ML AC',
@@ -15269,7 +15269,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            453 => 
+            453 =>
             array (
                 'signa_id' => 954,
                 'signa_kode' => '4DD12ML PC',
@@ -15285,7 +15285,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            454 => 
+            454 =>
             array (
                 'signa_id' => 955,
                 'signa_kode' => '4DD15ML AC',
@@ -15301,7 +15301,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            455 => 
+            455 =>
             array (
                 'signa_id' => 956,
                 'signa_kode' => '4DD15ML PC',
@@ -15317,7 +15317,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            456 => 
+            456 =>
             array (
                 'signa_id' => 957,
                 'signa_kode' => '4DD1B AV',
@@ -15333,7 +15333,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            457 => 
+            457 =>
             array (
                 'signa_id' => 958,
                 'signa_kode' => '4DD1C',
@@ -15349,7 +15349,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            458 => 
+            458 =>
             array (
                 'signa_id' => 959,
                 'signa_kode' => '5DD10ML',
@@ -15365,7 +15365,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            459 => 
+            459 =>
             array (
                 'signa_id' => 960,
                 'signa_kode' => '4DD1C AC',
@@ -15381,7 +15381,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            460 => 
+            460 =>
             array (
                 'signa_id' => 961,
                 'signa_kode' => '4DD1C PC',
@@ -15397,7 +15397,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            461 => 
+            461 =>
             array (
                 'signa_id' => 962,
                 'signa_kode' => '4DD1G AD',
@@ -15413,7 +15413,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            462 => 
+            462 =>
             array (
                 'signa_id' => 963,
                 'signa_kode' => '4DD1G ADS',
@@ -15429,7 +15429,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            463 => 
+            463 =>
             array (
                 'signa_id' => 964,
                 'signa_kode' => '4DD1G AS',
@@ -15445,7 +15445,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            464 => 
+            464 =>
             array (
                 'signa_id' => 965,
                 'signa_kode' => '4DD1G ND',
@@ -15461,7 +15461,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            465 => 
+            465 =>
             array (
                 'signa_id' => 966,
                 'signa_kode' => '4DD1G NDS',
@@ -15477,7 +15477,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            466 => 
+            466 =>
             array (
                 'signa_id' => 967,
                 'signa_kode' => '4DD1G NS',
@@ -15493,7 +15493,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            467 => 
+            467 =>
             array (
                 'signa_id' => 968,
                 'signa_kode' => '4DD1G OD',
@@ -15509,7 +15509,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            468 => 
+            468 =>
             array (
                 'signa_id' => 969,
                 'signa_kode' => '5DD1.5ML',
@@ -15525,7 +15525,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            469 => 
+            469 =>
             array (
                 'signa_id' => 970,
                 'signa_kode' => '4DD1G ODS',
@@ -15541,7 +15541,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            470 => 
+            470 =>
             array (
                 'signa_id' => 971,
                 'signa_kode' => '4DD1G OS',
@@ -15557,7 +15557,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            471 => 
+            471 =>
             array (
                 'signa_id' => 972,
                 'signa_kode' => '4DD1ML',
@@ -15573,7 +15573,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            472 => 
+            472 =>
             array (
                 'signa_id' => 973,
                 'signa_kode' => '4DD1ML AC',
@@ -15589,7 +15589,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            473 => 
+            473 =>
             array (
                 'signa_id' => 974,
                 'signa_kode' => '6DD2C',
@@ -15605,7 +15605,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            474 => 
+            474 =>
             array (
                 'signa_id' => 975,
                 'signa_kode' => '4DD1ML PC',
@@ -15621,7 +15621,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            475 => 
+            475 =>
             array (
                 'signa_id' => 976,
                 'signa_kode' => '4DD1SUP',
@@ -15637,7 +15637,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            476 => 
+            476 =>
             array (
                 'signa_id' => 977,
                 'signa_kode' => '4DD1T',
@@ -15653,7 +15653,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            477 => 
+            477 =>
             array (
                 'signa_id' => 978,
                 'signa_kode' => '4DD1T AC',
@@ -15669,7 +15669,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            478 => 
+            478 =>
             array (
                 'signa_id' => 979,
                 'signa_kode' => '4DD1T AV',
@@ -15685,7 +15685,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            479 => 
+            479 =>
             array (
                 'signa_id' => 980,
                 'signa_kode' => '4DD1T PC',
@@ -15701,7 +15701,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            480 => 
+            480 =>
             array (
                 'signa_id' => 981,
                 'signa_kode' => '4DD2.5ML AC',
@@ -15717,7 +15717,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            481 => 
+            481 =>
             array (
                 'signa_id' => 982,
                 'signa_kode' => '4DD2.5ML PC',
@@ -15733,7 +15733,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            482 => 
+            482 =>
             array (
                 'signa_id' => 983,
                 'signa_kode' => '4DD20ML',
@@ -15749,7 +15749,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            483 => 
+            483 =>
             array (
                 'signa_id' => 984,
                 'signa_kode' => '4DD20ML AC',
@@ -15765,7 +15765,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            484 => 
+            484 =>
             array (
                 'signa_id' => 985,
                 'signa_kode' => '4DD20ML PC',
@@ -15781,7 +15781,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            485 => 
+            485 =>
             array (
                 'signa_id' => 986,
                 'signa_kode' => '4DD25ML',
@@ -15797,7 +15797,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            486 => 
+            486 =>
             array (
                 'signa_id' => 987,
                 'signa_kode' => '4DD25ML AC',
@@ -15813,7 +15813,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            487 => 
+            487 =>
             array (
                 'signa_id' => 988,
                 'signa_kode' => '4DD25ML PC',
@@ -15829,7 +15829,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            488 => 
+            488 =>
             array (
                 'signa_id' => 989,
                 'signa_kode' => '4DD2C',
@@ -15845,7 +15845,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            489 => 
+            489 =>
             array (
                 'signa_id' => 990,
                 'signa_kode' => '4DD2C AC',
@@ -15861,7 +15861,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            490 => 
+            490 =>
             array (
                 'signa_id' => 991,
                 'signa_kode' => '4DD2G AD',
@@ -15877,7 +15877,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            491 => 
+            491 =>
             array (
                 'signa_id' => 992,
                 'signa_kode' => '4DD2G ADS',
@@ -15893,7 +15893,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            492 => 
+            492 =>
             array (
                 'signa_id' => 993,
                 'signa_kode' => '4DD2G AS',
@@ -15909,7 +15909,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            493 => 
+            493 =>
             array (
                 'signa_id' => 994,
                 'signa_kode' => '4DD2G ND',
@@ -15925,7 +15925,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            494 => 
+            494 =>
             array (
                 'signa_id' => 995,
                 'signa_kode' => '4DD2G NDS',
@@ -15941,7 +15941,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            495 => 
+            495 =>
             array (
                 'signa_id' => 996,
                 'signa_kode' => '4DD2G NS',
@@ -15957,7 +15957,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            496 => 
+            496 =>
             array (
                 'signa_id' => 997,
                 'signa_kode' => '4DD2G OD',
@@ -15973,7 +15973,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            497 => 
+            497 =>
             array (
                 'signa_id' => 998,
                 'signa_kode' => '4DD2G ODS',
@@ -15989,7 +15989,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            498 => 
+            498 =>
             array (
                 'signa_id' => 999,
                 'signa_kode' => '4DD2G OS',
@@ -16005,7 +16005,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_date' => NULL,
                 'deleted_by' => NULL,
             ),
-            499 => 
+            499 =>
             array (
                 'signa_id' => 1000,
                 'signa_kode' => '4DD2ML',
@@ -16022,7 +16022,7 @@ class SignaMTableSeeder extends Seeder
                 'deleted_by' => NULL,
             ),
         ));
-        
-        
+
+
     }
 }
