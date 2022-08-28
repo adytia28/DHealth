@@ -24,9 +24,9 @@
             </div>
         </div>
         <div>
-            <h3  style="font-weight:600; font-size:20px;">Pemakaian</h3>
-            <div  style="padding:10px 0; font-size:20px">
-                <span  style="font-weight: 600">{{$receipe->signa->signa_kode}} </span> - {{$receipe->signa->signa_nama}}
+            <h3 style="font-weight:600; font-size:20px;">Pemakaian</h3>
+            <div style="padding:10px 0; font-size:20px">
+                <span style="font-weight: 600">{{$receipe->signa->signa_kode}} </span> - {{$receipe->signa->signa_nama}}
             </div>
         </div>
     </div>
